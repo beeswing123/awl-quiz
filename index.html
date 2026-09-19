@@ -252,7 +252,7 @@
     </div>
     <div class="home-stats" id="home-stats"></div>
     <div class="tip">
-      <b>答题小贴士：</b>每套 10 题，A–E 五个部分各 2 题。选择/判断题<b>点选即选择，再点同一选项</b>进入下一题；填空题输入后点「提交答案」，再点「下一题」继续。提交答卷前可随时用「上一题/题号」回看修改。答题过程中不显示对错，全部答完后点「提交答卷」，即可查看成绩与每题解析。
+      <b>答题小贴士：</b>每套 10 题，A–E 五个部分各 2 题。选择/判断题<b>点选即选择，再点同一选项</b>进入下一题；填空题输入后点「提交答案」自动进入下一题。提交答卷前可随时用「上一题/题号」回看修改。答题过程中不显示对错，全部答完后点「提交答卷」，即可查看成绩与每题解析。
     </div>
     <div class="toolbar">
       <button class="tb-btn" id="tb-wrong"><span class="ic">📕</span><span>错题本</span></button>
@@ -636,11 +636,11 @@
         mountInput();
         if(locked){
           const note=document.createElement("div"); note.className="part-desc"; note.style.margin="8px 0 0";
-          note.textContent="答案已保存 · 修改后重新提交，或点「下一题」继续。";
+          note.textContent="已保存此答案 · 修改后点下方按钮重新提交。";
           card.appendChild(note);
         }
         const btn=document.createElement("button"); btn.className="btn"; btn.id="txt-submit";
-        btn.textContent=locked?"保存修改":"提交答案";
+        btn.textContent=locked?"保存修改，下一题 ›":"提交答案，下一题 ›";
         btn.addEventListener("click",()=>{ if(inp.value.trim()===""){showHint("请先输入答案再提交。");return;} gradeText(inp.value); });
         inp.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); if(inp.value.trim()===""){showHint("请先输入答案再提交。");return;} gradeText(inp.value); } });
         extra.appendChild(btn);
@@ -651,7 +651,7 @@
     // 首次使用提示（仅出现一次）
     if(!practiceMode && idx===0 && !load(SK_HINT,false)){
       save(SK_HINT,true);
-      showHint("提示：选择/判断题点选即选择，再点同一选项进入下一题；点其他选项可随时改答案。填空题输入后点「提交答案」保存，再点「下一题」继续。提交答卷前可随时回看修改。答题过程中不显示对错，全部答完后点「提交答卷」查看成绩与解析。");
+      showHint("提示：选择/判断题点选即选择，再点同一选项进入下一题；点其他选项可随时改答案。填空题输入后点「提交答案」自动进入下一题。提交答卷前可随时回看修改。答题过程中不显示对错，全部答完后点「提交答卷」查看成绩与解析。");
     }
     // 全部作答完成 → 出示「提交答卷」卡片（正式模式）
     if(!practiceMode && answers.every(Boolean)){
@@ -745,7 +745,8 @@
     answers[idx]={v,ok};
     if(ok) markSourceCorrect(idx);
     if(practiceMode) buzz(ok); else buzzConfirm();
-    persist();renderQ(); // 保存答案，不跳题；由用户点「下一题」前进
+    persist();
+    if(practiceMode) renderQ(); else advance(); // 正式模式：提交后自动进入下一题
   }
 
   /* locked styles：练习模式显示对错；正式模式只标注自己的选择，不泄露答案 */
