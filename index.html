@@ -592,7 +592,7 @@
         b.dataset.v=v; b.textContent=label;
         if(locked && practiceMode) styleLockedTF(b,v,qq,ans);
         else{
-          if(locked) b.classList.add("sel"); // 正式模式回看：标出当前答案，可改
+          if(locked && ans.v===v) b.classList.add("sel"); // 正式模式回看：仅标出当前答案，可改
           b.addEventListener("click",()=>chooseTF(v,b));
         }
         box.appendChild(b);
