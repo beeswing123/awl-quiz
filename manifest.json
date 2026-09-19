@@ -1,0 +1,25 @@
+{
+  "name": "AWL 学术词汇测验",
+  "short_name": "AWL 测验",
+  "description": "基于 AWL Sublists 1-8 的词汇测验，含词义选择、完形、判断、词形变化与首字母填空。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e9ede7",
+  "theme_color": "#5f9e8a",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='42' fill='%235f9e8a'/><text x='96' y='118' font-size='96' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>A</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='112' fill='%235f9e8a'/><text x='256' y='320' font-size='260' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'>A</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
