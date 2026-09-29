@@ -846,19 +846,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "sector",
-          "g": "部门；领域",
+          "w": "concept",
+          "g": "概念；观念",
           "opts": [
             {
-              "t": "a section or part of something",
+              "t": "an abstract idea or general notion that helps us understand something",
               "c": true
             },
             {
-              "t": "to move forward or advance",
+              "t": "a type of mathematical equation used in engineering",
               "c": false
             },
             {
-              "t": "to provide help or assistance",
+              "t": "a formal written agreement between two companies",
               "c": false
             }
           ]
@@ -866,19 +866,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "percent",
-          "g": "百分比",
+          "w": "benefit",
+          "g": "利益；好处",
           "opts": [
             {
-              "t": "for every hundred",
-              "c": true
-            },
-            {
-              "t": "a group sharing common characteristics",
+              "t": "a serious loss or disadvantage suffered by someone",
               "c": false
             },
             {
-              "t": "a diary or daily record",
+              "t": "an advantage or profit gained from something",
+              "c": true
+            },
+            {
+              "t": "a type of criminal charge brought against a suspect",
               "c": false
             }
           ]
@@ -886,39 +886,39 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The study aims to ______ the relationship between the two variables.",
-          "g": "建立；确立",
+          "s": "The school introduced a new teaching ______ that combines online and face-to-face lessons.",
+          "g": "方法；途径",
           "opts": [
             {
-              "t": "establish",
+              "t": "approach",
               "c": true
             },
             {
-              "t": "consume",
+              "t": "concept",
               "c": false
             },
+            {
+              "t": "formula",
+              "c": false
+            }
+          ]
+        },
+        {
+          "p": "B",
+          "t": "mcq",
+          "s": "Scholarships are ______ to students whose family income falls below a certain threshold.",
+          "g": "可获得的；可用的",
+          "opts": [
             {
               "t": "relevant",
               "c": false
-            }
-          ]
-        },
-        {
-          "p": "B",
-          "t": "mcq",
-          "s": "Without proper ______, the project cannot proceed.",
-          "g": "数据",
-          "opts": [
+            },
             {
-              "t": "data",
+              "t": "available",
               "c": true
             },
             {
-              "t": "text",
-              "c": false
-            },
-            {
-              "t": "aspect",
+              "t": "evident",
               "c": false
             }
           ]
@@ -926,43 +926,43 @@ window.AWL_Q[1] = {
         {
           "p": "C",
           "t": "tf",
-          "w": "aspect",
-          "m": "any specific feature, part, or element of something",
+          "w": "involve",
+          "m": "to include something as a necessary part of an activity or event",
           "ans": true,
-          "g": "方面；层面"
+          "g": "包含；涉及"
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "policy",
-          "m": "a principle of behaviour or conduct applied by an organization",
-          "ans": true,
-          "g": "政策；方针"
+          "w": "credit",
+          "m": "to publicly insult or shame someone in front of an audience",
+          "ans": false,
+          "g": "赞扬；信用"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "More ______ research is needed to confirm these findings.",
-          "base": "comprehensive",
+          "s": "The marathon runner was praised for her remarkable ______ in finishing the race despite an injured knee.",
+          "base": "achieve",
           "ans": [
-            "comprehensive"
+            "achievement"
           ],
-          "g": "全面的；综合的"
+          "g": "成就；成绩"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "base": "data",
+          "s": "Before approving the loan, the bank will carry out a full ______ of the applicant's financial situation.",
+          "base": "assess",
           "ans": [
-            "data"
+            "assessment"
           ],
-          "g": "数据；资料"
+          "g": "评估；评价"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "The report highlights the p______ of sustainable development.",
+          "s": "A core p______ of democracy is that every adult citizen has the right to vote.",
           "ans": [
             "principle"
           ],
@@ -972,12 +972,12 @@ window.AWL_Q[1] = {
         {
           "p": "E",
           "t": "text",
-          "s": "The journal published several articles on sustainable development.",
+          "s": "The factory employs over two hundred skilled workers in its l______ department.",
           "ans": [
-            "journal"
+            "labour"
           ],
-          "g": "期刊；杂志",
-          "first": "j"
+          "g": "劳动；劳工",
+          "first": "l"
         }
       ]
     },
@@ -987,19 +987,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "assume",
-          "g": "假设；假定",
+          "w": "compute",
+          "g": "计算；估算",
           "opts": [
             {
-              "t": "to suppose something is true without proof",
+              "t": "to calculate an answer or result using mathematics",
               "c": true
             },
             {
-              "t": "to make something clear or definite",
+              "t": "to argue angrily with a colleague at work",
               "c": false
             },
             {
-              "t": "to express as a percentage",
+              "t": "to paint a garden wall a brand-new colour",
               "c": false
             }
           ]
@@ -1007,19 +1007,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "region",
-          "g": "地区；区域",
+          "w": "transfer",
+          "g": "转移；转让",
           "opts": [
             {
-              "t": "a large area of land or space",
-              "c": true
-            },
-            {
-              "t": "a rough calculation",
+              "t": "to translate a long text from one language into another",
               "c": false
             },
             {
-              "t": "a process or method",
+              "t": "to move someone or something from one place or position to another",
+              "c": true
+            },
+            {
+              "t": "to grow vegetables in a backyard garden",
               "c": false
             }
           ]
@@ -1027,19 +1027,19 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The team will ______ the data before publishing their findings.",
-          "g": "分析",
+          "s": "The brain's main ______ is to process information from the senses.",
+          "g": "功能；作用",
           "opts": [
             {
-              "t": "analyse",
+              "t": "function",
               "c": true
             },
             {
-              "t": "interpret",
+              "t": "concept",
               "c": false
             },
             {
-              "t": "require",
+              "t": "structure",
               "c": false
             }
           ]
@@ -1047,78 +1047,78 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "Without proper ______, the project cannot proceed.",
-          "g": "章节；篇章",
+          "s": "The scientific ______ involves making observations, forming hypotheses, and testing them through experiments.",
+          "g": "方法；方式",
           "opts": [
             {
-              "t": "chapter",
+              "t": "policy",
+              "c": false
+            },
+            {
+              "t": "area",
+              "c": false
+            },
+            {
+              "t": "method",
               "c": true
-            },
-            {
-              "t": "compute",
-              "c": false
-            },
-            {
-              "t": "injure",
-              "c": false
             }
           ]
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "strategy",
-          "m": "a plan of action designed to achieve a specific goal",
+          "w": "conduct",
+          "m": "to organise and carry out a particular activity",
           "ans": true,
-          "g": "策略；战略"
+          "g": "实施；进行"
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "obtain",
-          "m": "to get or acquire something",
-          "ans": true,
-          "g": "获得；取得"
+          "w": "final",
+          "m": "the very first step in a long sequence of events",
+          "ans": false,
+          "g": "最终的；最后的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Without proper ______, the project cannot proceed.",
-          "base": "information",
+          "s": "The bridge's unusual ______ was inspired by the shape of a spider's web.",
+          "base": "design",
           "ans": [
-            "information"
+            "design"
           ],
-          "g": "信息；资料"
+          "g": "设计；图案"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "base": "information",
+          "s": "The teacher broke the problem into smaller parts because of its ______.",
+          "base": "complex",
           "ans": [
-            "information"
+            "complexity"
           ],
-          "g": "信息；资料"
+          "g": "复杂性；错综复杂"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "A key r______ in the study was the large sample size.",
+          "s": "Many rural families rely on farming as their main source of i______.",
           "ans": [
-            "result"
+            "income"
           ],
-          "g": "结果；成果",
-          "first": "r"
-        },
-        {
-          "p": "E",
-          "t": "text",
-          "s": "The team will i______ the data before publishing their findings.",
-          "ans": [
-            "interpret"
-          ],
-          "g": "解释；解读",
+          "g": "收入；所得",
           "first": "i"
+        },
+        {
+          "p": "E",
+          "t": "text",
+          "s": "The head teacher plays a crucial r______ in shaping the school's academic culture.",
+          "ans": [
+            "role"
+          ],
+          "g": "角色；作用",
+          "first": "r"
         }
       ]
     },
@@ -1128,19 +1128,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "item",
-          "g": "项目；条目",
+          "w": "assume",
+          "g": "假设；假定",
           "opts": [
             {
-              "t": "a single object or thing",
+              "t": "to suppose that something is true without checking or proving it",
               "c": true
             },
             {
-              "t": "a significant influence",
+              "t": "to prove a theory with hard evidence and experiments",
               "c": false
             },
             {
-              "t": "a percentage",
+              "t": "to sell fresh goods at a weekly outdoor market",
               "c": false
             }
           ]
@@ -1148,19 +1148,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "select",
-          "g": "选择；挑选",
+          "w": "obtain",
+          "g": "获得；取得",
           "opts": [
             {
-              "t": "to choose from a group",
-              "c": true
-            },
-            {
-              "t": "a type of atom",
+              "t": "to lose something valuable by accident",
               "c": false
             },
             {
-              "t": "to explain meaning",
+              "t": "to get something, especially by making an effort",
+              "c": true
+            },
+            {
+              "t": "to watch a sporting event from the stands",
               "c": false
             }
           ]
@@ -1168,19 +1168,19 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The ______ of the research was widely discussed at the conference.",
-          "g": "发现；结果",
+          "s": "The museum is closed for renovations for a six-month ______.",
+          "g": "时期；一段时间",
           "opts": [
             {
-              "t": "findings",
+              "t": "period",
               "c": true
             },
             {
-              "t": "site",
+              "t": "region",
               "c": false
             },
             {
-              "t": "regulate",
+              "t": "sector",
               "c": false
             }
           ]
@@ -1188,78 +1188,78 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The method offers a ______ solution to a complex problem.",
-          "g": "实用的；实际的",
+          "s": "The sports ______ of the newspaper covers football, cricket, and athletics.",
+          "g": "部分；栏目",
           "opts": [
             {
-              "t": "practical",
+              "t": "chapter",
+              "c": false
+            },
+            {
+              "t": "category",
+              "c": false
+            },
+            {
+              "t": "section",
               "c": true
-            },
-            {
-              "t": "legal",
-              "c": false
-            },
-            {
-              "t": "survey",
-              "c": false
             }
           ]
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "create",
-          "m": "to bring something into existence",
+          "w": "define",
+          "m": "to describe accurately what something is and what its limits are",
           "ans": true,
-          "g": "创造；创建"
+          "g": "定义；界定"
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "similar",
-          "m": "an organization founded to promote a cause",
+          "w": "seek",
+          "m": "to deliberately hide from someone who is trying to find you",
           "ans": false,
-          "g": "相似的；类似的"
+          "g": "寻找；寻求"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Scientists ______ that further research is needed in this area.",
-          "base": "conclude",
+          "s": "The ______ background of students can affect their learning style and classroom behaviour.",
+          "base": "culture",
           "ans": [
-            "conclude"
+            "cultural"
           ],
-          "g": "推断；断定"
+          "g": "文化的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "base": "evidence",
-          "ans": [
-            "evidence"
-          ],
-          "g": "证据；根据"
-        },
-        {
-          "p": "E",
-          "t": "text",
-          "s": "We must p______ all available evidence before making a decision.",
+          "s": "Once the safety checks are complete, the team will ______ to the next stage of the experiment.",
+          "base": "proceed",
           "ans": [
             "proceed"
           ],
-          "g": "继续；进行",
-          "first": "p"
+          "g": "继续；进行"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "Without proper d______, the project cannot proceed.",
+          "s": "Einstein's t______ of relativity changed the way physicists understand space and time.",
           "ans": [
-            "data"
+            "theory"
           ],
-          "g": "数据；资料",
-          "first": "d"
+          "g": "理论；学说",
+          "first": "t"
+        },
+        {
+          "p": "E",
+          "t": "text",
+          "s": "The m______ political parties have all agreed to support the new climate law.",
+          "ans": [
+            "major"
+          ],
+          "g": "主要的；大的",
+          "first": "m"
         }
       ]
     },
@@ -1269,19 +1269,19 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "regulate",
-          "g": "监管；调节",
+          "w": "aspect",
+          "g": "方面；层面",
           "opts": [
             {
-              "t": "to control according to rules",
+              "t": "a particular part or feature of something",
               "c": true
             },
             {
-              "t": "obvious by observation",
+              "t": "a rare type of flowering plant found in deserts",
               "c": false
             },
             {
-              "t": "a sequence of railroad cars",
+              "t": "a formal legal document filed in court",
               "c": false
             }
           ]
@@ -1289,19 +1289,39 @@ window.AWL_Q[1] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "impact",
-          "g": "影响；冲击",
+          "w": "relevant",
+          "g": "相关的；切题的",
           "opts": [
             {
-              "t": "a strong effect or influence",
-              "c": true
-            },
-            {
-              "t": "a rough calculation",
+              "t": "completely unrelated to the topic being discussed",
               "c": false
             },
             {
-              "t": "an outflow",
+              "t": "extremely expensive to purchase or to rent",
+              "c": false
+            },
+            {
+              "t": "closely connected to what is being discussed or considered",
+              "c": true
+            }
+          ]
+        },
+        {
+          "p": "B",
+          "t": "mcq",
+          "s": "The manufacturing ______ is the largest contributor to the country's GDP.",
+          "g": "部门；领域",
+          "opts": [
+            {
+              "t": "sector",
+              "c": true
+            },
+            {
+              "t": "aspect",
+              "c": false
+            },
+            {
+              "t": "feature",
               "c": false
             }
           ]
@@ -1309,39 +1329,19 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The ______ of the research was widely discussed at the conference.",
-          "g": "方法；方法论",
+          "s": "Each job application is assigned to a ______ based on the applicant's qualifications.",
+          "g": "类别；范畴",
           "opts": [
             {
-              "t": "methodology",
+              "t": "percent",
+              "c": false
+            },
+            {
+              "t": "category",
               "c": true
             },
             {
-              "t": "finance",
-              "c": false
-            },
-            {
-              "t": "factor",
-              "c": false
-            }
-          ]
-        },
-        {
-          "p": "B",
-          "t": "mcq",
-          "s": "The report highlights the ______ of sustainable development.",
-          "g": "重要性；意义",
-          "opts": [
-            {
-              "t": "significance",
-              "c": true
-            },
-            {
-              "t": "range",
-              "c": false
-            },
-            {
-              "t": "item",
+              "t": "journal",
               "c": false
             }
           ]
@@ -1349,58 +1349,58 @@ window.AWL_Q[1] = {
         {
           "p": "C",
           "t": "tf",
-          "w": "primary",
-          "m": "first or earliest in a group or series",
+          "w": "create",
+          "m": "to make something new that did not exist before",
           "ans": true,
-          "g": "主要的；首要的"
+          "g": "创造；创建"
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "administration",
-          "m": "the act of managing or governing",
-          "ans": true,
-          "g": "管理；行政"
+          "w": "survey",
+          "m": "to ignore a group of people's opinions completely and to disregard their views",
+          "ans": false,
+          "g": "调查；审视"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The report highlights the ______ of sustainable development.",
-          "base": "significant",
+          "s": "The research ______ was established in 1985 to study tropical diseases.",
+          "base": "institute",
           "ans": [
-            "significance"
+            "institute"
           ],
-          "g": "重要性；意义"
+          "g": "机构；研究所"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Without proper ______, the project cannot proceed.",
-          "base": "equipment",
+          "s": "Doctors are studying how long-term stress can ______ a person's immune system.",
+          "base": "affect",
           "ans": [
-            "equipment"
+            "affect"
           ],
-          "g": "设备；器材"
+          "g": "影响；作用"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "A key r______ in the study was the large sample size.",
+          "s": "The ancient burial s______ was discovered by a team of archaeologists last summer.",
           "ans": [
-            "requirement"
+            "site"
           ],
-          "g": "要求；必要条件",
-          "first": "r"
-        },
-        {
-          "p": "E",
-          "t": "text",
-          "s": "A key s______ in the study was the large sample size.",
-          "ans": [
-            "strength"
-          ],
-          "g": "优势；长处",
+          "g": "遗址；地点",
           "first": "s"
+        },
+        {
+          "p": "E",
+          "t": "text",
+          "s": "The doctor was pleased to report that the treatment had a p______ effect on the patient's condition.",
+          "ans": [
+            "positive"
+          ],
+          "g": "积极的；正面的",
+          "first": "p"
         }
       ]
     }
