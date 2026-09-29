@@ -845,19 +845,19 @@ window.AWL_Q[3] = {
           "p": "A",
           "t": "mcq",
           "w": "modify",
-          "g": "(transitive) To change part of.",
+          "g": "修改；改变",
           "opts": [
             {
-              "t": "(finance) The yield or profit; the selling price minus the cost of production.",
-              "c": false
-            },
-            {
-              "t": "Identification as a man, a woman, or something else, and association with a (social) rol…",
-              "c": false
-            },
-            {
-              "t": "(transitive) To change part of.",
+              "t": "to change part of something",
               "c": true
+            },
+            {
+              "t": "to make a profit",
+              "c": false
+            },
+            {
+              "t": "to identify someone's gender",
+              "c": false
             }
           ]
         },
@@ -865,18 +865,18 @@ window.AWL_Q[3] = {
           "p": "A",
           "t": "mcq",
           "w": "input",
-          "g": "Data fed into a process with the intention of it shaping or affecting the output of that…",
+          "g": "输入；投入",
           "opts": [
             {
-              "t": "Anything made by combining several things.",
-              "c": false
-            },
-            {
-              "t": "Data fed into a process with the intention of it shaping or affecting the output of that…",
+              "t": "data fed into a process to shape the output",
               "c": true
             },
             {
-              "t": "(transitive) To fasten, to join to (literally and figuratively).",
+              "t": "a combination of several things",
+              "c": false
+            },
+            {
+              "t": "to fasten or join something",
               "c": false
             }
           ]
@@ -884,98 +884,98 @@ window.AWL_Q[3] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The ______ of the research was widely discussed at the conference.",
-          "g": "A spoken lesson or exposition, usually delivered to a group.",
+          "s": "A key ______ in the study was the large sample size.",
+          "g": "发现；结果",
           "opts": [
             {
-              "t": "domain",
-              "c": false
-            },
-            {
-              "t": "assign",
-              "c": false
-            },
-            {
-              "t": "lecture",
+              "t": "finding",
               "c": true
+            },
+            {
+              "t": "thesis",
+              "c": false
+            },
+            {
+              "t": "clarify",
+              "c": false
             }
           ]
         },
         {
           "p": "B",
           "t": "mcq",
-          "s": "The team will ______ the data before publishing their findings.",
-          "g": "(transitive) To increase the extent, number, volume or scope of (something).",
-          "opts": [
-            {
-              "t": "domain",
-              "c": false
-            },
-            {
-              "t": "incidence",
-              "c": false
-            },
-            {
-              "t": "expand",
-              "c": true
-            }
-          ]
-        },
-        {
-          "p": "C",
-          "t": "tf",
-          "w": "bond",
-          "m": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
-          "g": "(law) A document constituting evidence of a long-term debt, by which the bond issuer (th…",
-          "ans": false
-        },
-        {
-          "p": "C",
-          "t": "tf",
-          "w": "overseas",
-          "m": "overseas",
-          "g": "overseas",
-          "ans": true
-        },
-        {
-          "p": "D",
-          "t": "text",
-          "s": "The study aims to ______ the relationship between the two variables.",
-          "g": "(transitive) To go beyond (some limit); to surpass; to be longer than.",
-          "base": "exceed",
-          "ans": [
-            "exceeding"
-          ]
-        },
-        {
-          "p": "D",
-          "t": "text",
           "s": "The report highlights the ______ of sustainable development.",
-          "g": "The originator or creator of a work, especially of a literary composition; or, one of th…",
-          "base": "author",
-          "ans": [
-            "authoring"
+          "g": "重要性；意义",
+          "opts": [
+            {
+              "t": "significance",
+              "c": true
+            },
+            {
+              "t": "drama",
+              "c": false
+            },
+            {
+              "t": "chart",
+              "c": false
+            }
           ]
         },
         {
-          "p": "E",
+          "p": "C",
+          "t": "tf",
+          "w": "contrary",
+          "m": "opposite; in an opposite direction",
+          "ans": true,
+          "g": "相反的；对立的"
+        },
+        {
+          "p": "C",
+          "t": "tf",
+          "w": "priority",
+          "m": "something that is considered more important than other things",
+          "ans": true,
+          "g": "优先事项"
+        },
+        {
+          "p": "D",
           "t": "text",
-          "s": "The study aims to t______ the relationship between the two variables.",
-          "g": "To carry or bear from one place to another; to remove; to convey.",
+          "s": "The ______ of the research was widely discussed at the conference.",
+          "base": "find",
           "ans": [
-            "transport"
+            "findings"
           ],
-          "first": "t"
+          "g": "发现；结果"
+        },
+        {
+          "p": "D",
+          "t": "text",
+          "s": "This approach is particularly ______ in educational settings.",
+          "base": "relevant",
+          "ans": [
+            "relevant"
+          ],
+          "g": "相关的；切题的"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "A key m______ in the study was the large sample size.",
-          "g": "(relational) Of or relating to the mind or specifically the total emotional and intellec…",
+          "s": "A f______ factor in the success was strong leadership.",
           "ans": [
-            "mental"
+            "fundamental"
           ],
-          "first": "m"
+          "g": "基本的；根本的",
+          "first": "f"
+        },
+        {
+          "p": "E",
+          "t": "text",
+          "s": "The report highlights the r______ of sustainable development.",
+          "ans": [
+            "relevance"
+          ],
+          "g": "相关性；关联",
+          "first": "r"
         }
       ]
     },
@@ -985,19 +985,19 @@ window.AWL_Q[3] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "nevertheless",
-          "g": "nevertheless",
+          "w": "ultimate",
+          "g": "最终的；根本的",
           "opts": [
             {
-              "t": "(transitive) To refuse to accept; to forswear.",
-              "c": false
-            },
-            {
-              "t": "nevertheless",
+              "t": "being the greatest possible; maximum",
               "c": true
             },
             {
-              "t": "(transitive) To build or place (something) so as to face eastward.",
+              "t": "that upon which anything is founded",
+              "c": false
+            },
+            {
+              "t": "to put in between or into",
               "c": false
             }
           ]
@@ -1005,39 +1005,19 @@ window.AWL_Q[3] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "edit",
-          "g": "To change a text, or a document.",
+          "w": "deviate",
+          "g": "偏离；背离",
           "opts": [
             {
-              "t": "(transitive) To reveal, uncover, make visible, bring to light, introduce (to).",
-              "c": false
-            },
-            {
-              "t": "(finance) The yield or profit; the selling price minus the cost of production.",
-              "c": false
-            },
-            {
-              "t": "To change a text, or a document.",
-              "c": true
-            }
-          ]
-        },
-        {
-          "p": "B",
-          "t": "mcq",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "Capable of adapting or changing to suit new or modified conditions or situations.",
-          "opts": [
-            {
-              "t": "rational",
-              "c": false
-            },
-            {
-              "t": "flexible",
+              "t": "to go off course from; to change plans",
               "c": true
             },
             {
-              "t": "consult",
+              "t": "inclination towards something",
+              "c": false
+            },
+            {
+              "t": "a statement attributed to a person",
               "c": false
             }
           ]
@@ -1045,19 +1025,39 @@ window.AWL_Q[3] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "A goal or objective.",
+          "s": "The ______ of the research was widely discussed at the conference.",
+          "g": "模式；范例",
           "opts": [
             {
-              "t": "target",
+              "t": "paradigm",
               "c": true
             },
             {
-              "t": "tape",
+              "t": "adult",
               "c": false
             },
             {
-              "t": "capable",
+              "t": "denote",
+              "c": false
+            }
+          ]
+        },
+        {
+          "p": "B",
+          "t": "mcq",
+          "s": "The report highlights the ______ of sustainable development.",
+          "g": "重要性；意义",
+          "opts": [
+            {
+              "t": "significance",
+              "c": true
+            },
+            {
+              "t": "abandon",
+              "c": false
+            },
+            {
+              "t": "fluctuate",
               "c": false
             }
           ]
@@ -1065,58 +1065,58 @@ window.AWL_Q[3] = {
         {
           "p": "C",
           "t": "tf",
-          "w": "energy",
-          "m": "A character or glyph representing an idea, concept or object.",
-          "g": "The capacity to do work.",
-          "ans": false
+          "w": "denote",
+          "m": "to refer to literally; to convey as objective meaning",
+          "ans": true,
+          "g": "表示；意味着"
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "subsidy",
-          "m": "Financial support or assistance, such as a grant.",
-          "g": "Financial support or assistance, such as a grant.",
-          "ans": true
+          "w": "exhibit",
+          "m": "to display or show something for others to see",
+          "ans": true,
+          "g": "展示；展览"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "A ______ factor in the success was strong leadership.",
-          "g": "The conveyance of people or goods from one place to another, especially on a public tran…",
-          "base": "transit",
+          "s": "Without proper ______, the project cannot proceed.",
+          "base": "fund",
           "ans": [
-            "transitional"
-          ]
+            "funding"
+          ],
+          "g": "资金；资助"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "It is important to ______ the results with caution.",
-          "g": "(transitive) To modify.",
-          "base": "adjust",
+          "s": "The data was ______ collected over a period of six months.",
+          "base": "systematic",
           "ans": [
-            "readjusting"
-          ]
+            "systematically"
+          ],
+          "g": "系统地"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "We must r______ all available evidence before making a decision.",
-          "g": "(transitive) To uncover; to show and display that which was hidden.",
+          "s": "Without proper u______, the project cannot proceed.",
           "ans": [
-            "reveal"
+            "understanding"
           ],
-          "first": "r"
+          "g": "理解；了解",
+          "first": "u"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "Without proper w______, the project cannot proceed.",
-          "g": "welfare",
+          "s": "Scientists e______ that further research is needed in this area.",
           "ans": [
-            "welfare"
+            "estimate"
           ],
-          "first": "w"
+          "g": "估计；估算",
+          "first": "e"
         }
       ]
     },
@@ -1126,19 +1126,19 @@ window.AWL_Q[3] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "acknowledge",
-          "g": "(transitive) To admit the knowledge of; to recognize as a fact or truth; to declare one'…",
+          "w": "contemporary",
+          "g": "当代的；现代的",
           "opts": [
             {
-              "t": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
-              "c": false
-            },
-            {
-              "t": "(transitive) To admit the knowledge of; to recognize as a fact or truth; to declare one'…",
+              "t": "modern, of the present age",
               "c": true
             },
             {
-              "t": "(uncountable) A method of human thought that involves thinking in a linear, step-by-step…",
+              "t": "essential or decisive for determining the outcome",
+              "c": false
+            },
+            {
+              "t": "to adapt to something by more closely matching it",
               "c": false
             }
           ]
@@ -1146,118 +1146,118 @@ window.AWL_Q[3] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "generation",
-          "g": "A group of people born in a specific range of years and whose members can relate cultura…",
+          "w": "successor",
+          "g": "继任者；接替者",
           "opts": [
             {
-              "t": "(transitive) To build or place (something) so as to face eastward.",
-              "c": false
-            },
-            {
-              "t": "(transitive) To change or transform (something).",
-              "c": false
-            },
-            {
-              "t": "A group of people born in a specific range of years and whose members can relate cultura…",
+              "t": "a person or thing that immediately follows another in holding an office or title",
               "c": true
+            },
+            {
+              "t": "a thing or being perceptible through senses",
+              "c": false
+            },
+            {
+              "t": "a social or political system",
+              "c": false
             }
           ]
         },
         {
           "p": "B",
           "t": "mcq",
-          "s": "More ______ research is needed to confirm these findings.",
-          "g": "Pertaining to the national government level in a federal nation, as opposed to state, pr…",
+          "s": "Without proper ______, the project cannot proceed.",
+          "g": "指导；方向",
           "opts": [
             {
-              "t": "assign",
-              "c": false
-            },
-            {
-              "t": "academy",
-              "c": false
-            },
-            {
-              "t": "federal",
+              "t": "guidance",
               "c": true
+            },
+            {
+              "t": "classic",
+              "c": false
+            },
+            {
+              "t": "mode",
+              "c": false
             }
           ]
         },
         {
           "p": "B",
           "t": "mcq",
-          "s": "A key ______ in the study was the large sample size.",
-          "g": "Widely open to new ideas, willing to depart from established opinions or conventions; pe…",
-          "opts": [
-            {
-              "t": "liberal",
-              "c": true
-            },
-            {
-              "t": "margin",
-              "c": false
-            },
-            {
-              "t": "conflict",
-              "c": false
-            }
-          ]
-        },
-        {
-          "p": "C",
-          "t": "tf",
-          "w": "entity",
-          "m": "That which has a distinct existence as an individual unit, often used for organizations…",
-          "g": "That which has a distinct existence as an individual unit, often used for organizations…",
-          "ans": true
-        },
-        {
-          "p": "C",
-          "t": "tf",
-          "w": "fundamental",
-          "m": "A fad or fashion style.",
-          "g": "Essential; extremely important.",
-          "ans": false
-        },
-        {
-          "p": "D",
-          "t": "text",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "(transitive) To build or place (something) so as to face eastward.",
-          "base": "orient",
-          "ans": [
-            "reorientation"
-          ]
-        },
-        {
-          "p": "D",
-          "t": "text",
           "s": "The ______ of the research was widely discussed at the conference.",
-          "g": "The total income received from a given source.",
-          "base": "revenue",
-          "ans": [
-            "revenues"
+          "g": "发现；结果",
+          "opts": [
+            {
+              "t": "findings",
+              "c": true
+            },
+            {
+              "t": "deviate",
+              "c": false
+            },
+            {
+              "t": "currency",
+              "c": false
+            }
           ]
         },
         {
-          "p": "E",
+          "p": "C",
+          "t": "tf",
+          "w": "couple",
+          "m": "two partners in a romantic or sexual relationship",
+          "ans": true,
+          "g": "一对；夫妻"
+        },
+        {
+          "p": "C",
+          "t": "tf",
+          "w": "decade",
+          "m": "a period of ten years",
+          "ans": true,
+          "g": "十年"
+        },
+        {
+          "p": "D",
           "t": "text",
-          "s": "The g______ of the research was widely discussed at the conference.",
-          "g": "Identification as a man, a woman, or something else, and association with a (social) rol…",
+          "s": "A key ______ in the study was the large sample size.",
+          "base": "strength",
           "ans": [
-            "gender"
+            "strength"
           ],
-          "first": "g"
+          "g": "优势；长处"
+        },
+        {
+          "p": "D",
+          "t": "text",
+          "s": "Without proper ______, the project cannot proceed.",
+          "base": "resource",
+          "ans": [
+            "resources"
+          ],
+          "g": "资源"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "We must r______ all available evidence before making a decision.",
-          "g": "(transitive) To refuse to accept; to forswear.",
+          "s": "This approach is particularly e______ in educational settings.",
           "ans": [
-            "reject"
+            "effective"
           ],
-          "first": "r"
+          "g": "有效的",
+          "first": "e"
+        },
+        {
+          "p": "E",
+          "t": "text",
+          "s": "It is important to d______ the results with caution.",
+          "ans": [
+            "discuss"
+          ],
+          "g": "讨论；谈论",
+          "first": "d"
         }
       ]
     },
@@ -1267,39 +1267,39 @@ window.AWL_Q[3] = {
         {
           "p": "A",
           "t": "mcq",
-          "w": "interval",
-          "g": "A period of time.",
+          "w": "foundation",
+          "g": "基础；地基",
           "opts": [
             {
-              "t": "(law) A document constituting evidence of a long-term debt, by which the bond issuer (th…",
-              "c": false
-            },
-            {
-              "t": "(transitive) To make better; improve.",
-              "c": false
-            },
-            {
-              "t": "A period of time.",
+              "t": "that upon which anything is founded",
               "c": true
+            },
+            {
+              "t": "to go off course from",
+              "c": false
+            },
+            {
+              "t": "to become involved in a situation",
+              "c": false
             }
           ]
         },
         {
           "p": "A",
           "t": "mcq",
-          "w": "discrete",
-          "g": "Separate; distinct; individual; non-continuous.",
+          "w": "crucial",
+          "g": "至关重要的",
           "opts": [
             {
-              "t": "Separate; distinct; individual; non-continuous.",
+              "t": "essential or decisive for determining the outcome",
               "c": true
             },
             {
-              "t": "A mass, assemblage, or sum of particulars; something consisting of elements but consider…",
+              "t": "a collection of papers collated together",
               "c": false
             },
             {
-              "t": "An act of tracing.",
+              "t": "to make prominent; emphasize",
               "c": false
             }
           ]
@@ -1308,18 +1308,18 @@ window.AWL_Q[3] = {
           "p": "B",
           "t": "mcq",
           "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "An institution for the study of higher learning; a college or a university; typically a…",
+          "g": "数据；资料",
           "opts": [
             {
-              "t": "liberal",
-              "c": false
-            },
-            {
-              "t": "academy",
+              "t": "data",
               "c": true
             },
             {
-              "t": "licence",
+              "t": "highlight",
+              "c": false
+            },
+            {
+              "t": "ambiguous",
               "c": false
             }
           ]
@@ -1327,19 +1327,19 @@ window.AWL_Q[3] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
+          "s": "The team will ______ the data before publishing their findings.",
+          "g": "分析",
           "opts": [
             {
-              "t": "notion",
+              "t": "analyse",
               "c": true
             },
             {
-              "t": "conflict",
+              "t": "classic",
               "c": false
             },
             {
-              "t": "ministry",
+              "t": "complement",
               "c": false
             }
           ]
@@ -1347,58 +1347,58 @@ window.AWL_Q[3] = {
         {
           "p": "C",
           "t": "tf",
-          "w": "abstract",
-          "m": "An act of tracing.",
-          "g": "An abridgement or summary of a longer publication.",
-          "ans": false
+          "w": "infer",
+          "m": "to conclude by reasoning from evidence",
+          "ans": true,
+          "g": "推断；推论"
         },
         {
           "p": "C",
           "t": "tf",
-          "w": "expert",
-          "m": "A field or sphere of activity, influence or expertise.",
-          "g": "A person with extensive knowledge or ability in a given subject.",
-          "ans": false
+          "w": "aid",
+          "m": "help; assistance; relief",
+          "ans": true,
+          "g": "帮助；援助"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The report highlights the ______ of sustainable development.",
-          "g": "A fad or fashion style.",
-          "base": "trend",
+          "s": "The experiment was designed to ______ control for confounding variables.",
+          "base": "automatic",
           "ans": [
-            "trends"
-          ]
+            "automatically"
+          ],
+          "g": "自动地"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "Of high or especially quick cognitive capacity, bright.",
-          "base": "intelligent",
+          "base": "evidence",
           "ans": [
-            "intelligence"
-          ]
+            "evidence"
+          ],
+          "g": "证据；根据"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "A key m______ in the study was the large sample size.",
-          "g": "An incentive to act in a particular way; a reason or emotion that makes one want to do s…",
+          "s": "Researchers analysed the s______ before drawing any conclusions.",
           "ans": [
-            "motive"
+            "statistics"
           ],
-          "first": "m"
+          "g": "统计数据",
+          "first": "s"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "Researchers analysed the p______ before drawing any conclusions.",
-          "g": "First in importance, degree, or rank.",
+          "s": "The a______ of the research was widely discussed at the conference.",
           "ans": [
-            "prime"
+            "author"
           ],
-          "first": "p"
+          "g": "作者",
+          "first": "a"
         }
       ]
     }

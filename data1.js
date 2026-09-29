@@ -847,19 +847,19 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "sector",
-          "g": "A section.",
+          "g": "部门；领域",
           "opts": [
             {
-              "t": "Any specific feature, part, or element of something.",
-              "c": false
-            },
-            {
-              "t": "To move, pass, or go forward or onward; to advance; to carry on.",
-              "c": false
-            },
-            {
-              "t": "A section.",
+              "t": "a section or part of something",
               "c": true
+            },
+            {
+              "t": "to move forward or advance",
+              "c": false
+            },
+            {
+              "t": "to provide help or assistance",
+              "c": false
             }
           ]
         },
@@ -867,18 +867,18 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "percent",
-          "g": "For every hundred (used with preceding numeral to form a noun phrase expressing a propor…",
+          "g": "百分比",
           "opts": [
             {
-              "t": "(countable) A group sharing common characteristics, such as the same language, law, reli…",
-              "c": false
-            },
-            {
-              "t": "For every hundred (used with preceding numeral to form a noun phrase expressing a propor…",
+              "t": "for every hundred",
               "c": true
             },
             {
-              "t": "A diary or daily record of a person, organization, vessel etc.; daybook.",
+              "t": "a group sharing common characteristics",
+              "c": false
+            },
+            {
+              "t": "a diary or daily record",
               "c": false
             }
           ]
@@ -887,19 +887,19 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "The study aims to ______ the relationship between the two variables.",
-          "g": "(transitive) To eat.",
+          "g": "建立；确立",
           "opts": [
             {
-              "t": "community",
+              "t": "establish",
+              "c": true
+            },
+            {
+              "t": "consume",
               "c": false
             },
             {
               "t": "relevant",
               "c": false
-            },
-            {
-              "t": "consume",
-              "c": true
             }
           ]
         },
@@ -907,15 +907,15 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "Without proper ______, the project cannot proceed.",
-          "g": "A writing consisting of multiple glyphs, characters, symbols or sentences.",
+          "g": "数据",
           "opts": [
             {
-              "t": "section",
-              "c": false
+              "t": "data",
+              "c": true
             },
             {
               "t": "text",
-              "c": true
+              "c": false
             },
             {
               "t": "aspect",
@@ -927,56 +927,56 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "aspect",
-          "m": "Any specific feature, part, or element of something.",
-          "g": "Any specific feature, part, or element of something.",
-          "ans": true
+          "m": "any specific feature, part, or element of something",
+          "ans": true,
+          "g": "方面；层面"
         },
         {
           "p": "C",
           "t": "tf",
           "w": "policy",
-          "m": "(Canada, US, Philippines) A final examination; a test or examination given at the end of…",
-          "g": "A principle of behaviour, conduct which an entity (government, organization, etc.) appli…",
-          "ans": false
+          "m": "a principle of behaviour or conduct applied by an organization",
+          "ans": true,
+          "g": "政策；方针"
         },
         {
           "p": "D",
           "t": "text",
           "s": "More ______ research is needed to confirm these findings.",
-          "g": "Something that one uses to achieve an objective, e.g. raw materials or personnel.",
-          "base": "resource",
+          "base": "comprehensive",
           "ans": [
-            "unresourceful"
-          ]
+            "comprehensive"
+          ],
+          "g": "全面的；综合的"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "Explicit or definite.",
-          "base": "specific",
+          "base": "data",
           "ans": [
-            "specifications"
-          ]
+            "data"
+          ],
+          "g": "数据；资料"
         },
         {
           "p": "E",
           "t": "text",
           "s": "The report highlights the p______ of sustainable development.",
-          "g": "A fundamental assumption or guiding belief.",
           "ans": [
             "principle"
           ],
+          "g": "原则；原理",
           "first": "p"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "The report highlights the j______ of sustainable development.",
-          "g": "A diary or daily record of a person, organization, vessel etc.; daybook.",
+          "s": "The journal published several articles on sustainable development.",
           "ans": [
             "journal"
           ],
+          "g": "期刊；杂志",
           "first": "j"
         }
       ]
@@ -988,18 +988,18 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "assume",
-          "g": "To authenticate by means of belief; to surmise; to suppose to be true, especially withou…",
+          "g": "假设；假定",
           "opts": [
             {
-              "t": "Explicit or definite.",
-              "c": false
-            },
-            {
-              "t": "To authenticate by means of belief; to surmise; to suppose to be true, especially withou…",
+              "t": "to suppose something is true without proof",
               "c": true
             },
             {
-              "t": "For every hundred (used with preceding numeral to form a noun phrase expressing a propor…",
+              "t": "to make something clear or definite",
+              "c": false
+            },
+            {
+              "t": "to express as a percentage",
               "c": false
             }
           ]
@@ -1008,18 +1008,18 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "region",
-          "g": "Any considerable and connected part of a space or surface; specifically, a tract of land…",
+          "g": "地区；区域",
           "opts": [
             {
-              "t": "A rough calculation or assessment of the value, size, or cost of something.",
-              "c": false
-            },
-            {
-              "t": "Any considerable and connected part of a space or surface; specifically, a tract of land…",
+              "t": "a large area of land or space",
               "c": true
             },
             {
-              "t": "(countable) A process by which a task is completed; a way of doing something (followed b…",
+              "t": "a rough calculation",
+              "c": false
+            },
+            {
+              "t": "a process or method",
               "c": false
             }
           ]
@@ -1028,15 +1028,15 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "The team will ______ the data before publishing their findings.",
-          "g": "To explain or tell the meaning of; to translate orally into intelligible or familiar lan…",
+          "g": "分析",
           "opts": [
             {
-              "t": "create",
-              "c": false
+              "t": "analyse",
+              "c": true
             },
             {
               "t": "interpret",
-              "c": true
+              "c": false
             },
             {
               "t": "require",
@@ -1048,15 +1048,15 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "Without proper ______, the project cannot proceed.",
-          "g": "One of the main sections into which a published work is divided, especially a book.",
+          "g": "章节；篇章",
           "opts": [
-            {
-              "t": "compute",
-              "c": false
-            },
             {
               "t": "chapter",
               "c": true
+            },
+            {
+              "t": "compute",
+              "c": false
             },
             {
               "t": "injure",
@@ -1068,56 +1068,56 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "strategy",
-          "m": "(countable) A plan of action intended to accomplish a specific goal.",
-          "g": "(countable) A plan of action intended to accomplish a specific goal.",
-          "ans": true
+          "m": "a plan of action designed to achieve a specific goal",
+          "ans": true,
+          "g": "策略；战略"
         },
         {
           "p": "C",
           "t": "tf",
           "w": "obtain",
-          "m": "Usual, healthy; not sick or ill or unlike oneself.",
-          "g": "(transitive) To get hold of; to gain possession of, to procure; to acquire, in any way.",
-          "ans": false
+          "m": "to get or acquire something",
+          "ans": true,
+          "g": "获得；取得"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Without proper ______, the project cannot proceed.",
-          "g": "(countable) A group sharing common characteristics, such as the same language, law, reli…",
-          "base": "community",
+          "base": "information",
           "ans": [
-            "communities"
-          ]
+            "information"
+          ],
+          "g": "信息；资料"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "(transitive) To move or pass from one place, person or thing to another.",
-          "base": "transfer",
+          "base": "information",
           "ans": [
-            "transference"
-          ]
+            "information"
+          ],
+          "g": "信息；资料"
         },
         {
           "p": "E",
           "t": "text",
           "s": "A key r______ in the study was the large sample size.",
-          "g": "(transitive, intransitive) To say something in return; to answer; to reply.",
           "ans": [
-            "respond"
+            "result"
           ],
+          "g": "结果；成果",
           "first": "r"
         },
         {
           "p": "E",
           "t": "text",
           "s": "The team will i______ the data before publishing their findings.",
-          "g": "To cause or engage (someone or something) to become connected or implicated, or to parti…",
           "ans": [
-            "involve"
+            "interpret"
           ],
+          "g": "解释；解读",
           "first": "i"
         }
       ]
@@ -1129,18 +1129,18 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "item",
-          "g": "A distinct physical object.",
+          "g": "项目；条目",
           "opts": [
             {
-              "t": "(figurative, proscribed) A significant or strong influence or effect.",
-              "c": false
-            },
-            {
-              "t": "A distinct physical object.",
+              "t": "a single object or thing",
               "c": true
             },
             {
-              "t": "For every hundred (used with preceding numeral to form a noun phrase expressing a propor…",
+              "t": "a significant influence",
+              "c": false
+            },
+            {
+              "t": "a percentage",
               "c": false
             }
           ]
@@ -1149,18 +1149,18 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "select",
-          "g": "To choose one or more elements of a set, especially a set of options.",
+          "g": "选择；挑选",
           "opts": [
             {
-              "t": "To choose one or more elements of a set, especially a set of options.",
+              "t": "to choose from a group",
               "c": true
             },
             {
-              "t": "(chemistry) Any one of the types of atom distinguished by having a certain number of pro…",
+              "t": "a type of atom",
               "c": false
             },
             {
-              "t": "To explain or tell the meaning of; to translate orally into intelligible or familiar lan…",
+              "t": "to explain meaning",
               "c": false
             }
           ]
@@ -1169,18 +1169,18 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "The ______ of the research was widely discussed at the conference.",
-          "g": "(Internet) A website.",
+          "g": "发现；结果",
           "opts": [
             {
-              "t": "site",
+              "t": "findings",
               "c": true
             },
             {
-              "t": "regulate",
+              "t": "site",
               "c": false
             },
             {
-              "t": "function",
+              "t": "regulate",
               "c": false
             }
           ]
@@ -1189,15 +1189,15 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "The method offers a ______ solution to a complex problem.",
-          "g": "Relating to the law or to lawyers.",
+          "g": "实用的；实际的",
           "opts": [
             {
-              "t": "contract",
-              "c": false
+              "t": "practical",
+              "c": true
             },
             {
               "t": "legal",
-              "c": true
+              "c": false
             },
             {
               "t": "survey",
@@ -1209,56 +1209,56 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "create",
-          "m": "(transitive) To bring into existence; (sometimes in particular:)",
-          "g": "(transitive) To bring into existence; (sometimes in particular:)",
-          "ans": true
+          "m": "to bring something into existence",
+          "ans": true,
+          "g": "创造；创建"
         },
         {
           "p": "C",
           "t": "tf",
           "w": "similar",
-          "m": "An organization founded to promote a cause",
-          "g": "Having traits or characteristics in common; alike, allied, comparable.",
-          "ans": false
+          "m": "an organization founded to promote a cause",
+          "ans": false,
+          "g": "相似的；类似的"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Scientists ______ that further research is needed in this area.",
-          "g": "(intransitive) To happen or take place.",
-          "base": "occur",
+          "base": "conclude",
           "ans": [
-            "reoccurred"
-          ]
+            "conclude"
+          ],
+          "g": "推断；断定"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Researchers analysed the ______ before drawing any conclusions.",
-          "g": "A person considered alone, rather than as belonging to a group of people.",
-          "base": "individual",
+          "base": "evidence",
           "ans": [
-            "individuality"
-          ]
+            "evidence"
+          ],
+          "g": "证据；根据"
         },
         {
           "p": "E",
           "t": "text",
           "s": "We must p______ all available evidence before making a decision.",
-          "g": "To move, pass, or go forward or onward; to advance; to carry on.",
           "ans": [
             "proceed"
           ],
+          "g": "继续；进行",
           "first": "p"
         },
         {
           "p": "E",
           "t": "text",
           "s": "Without proper d______, the project cannot proceed.",
-          "g": "data",
           "ans": [
             "data"
           ],
+          "g": "数据；资料",
           "first": "d"
         }
       ]
@@ -1270,18 +1270,18 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "regulate",
-          "g": "To control or direct according to rule, principle, or law.",
+          "g": "监管；调节",
           "opts": [
             {
-              "t": "To control or direct according to rule, principle, or law.",
+              "t": "to control according to rules",
               "c": true
             },
             {
-              "t": "Obviously true by simple observation.",
+              "t": "obvious by observation",
               "c": false
             },
             {
-              "t": "(rail transport) A lineup or sequence of railroad carriages or cars, with or without a l…",
+              "t": "a sequence of railroad cars",
               "c": false
             }
           ]
@@ -1290,19 +1290,19 @@ window.AWL_Q[1] = {
           "p": "A",
           "t": "mcq",
           "w": "impact",
-          "g": "(figurative, proscribed) A significant or strong influence or effect.",
+          "g": "影响；冲击",
           "opts": [
             {
-              "t": "A rough calculation or assessment of the value, size, or cost of something.",
-              "c": false
-            },
-            {
-              "t": "The action or an instance of flowing or coming out, an outflow, particularly:",
-              "c": false
-            },
-            {
-              "t": "(figurative, proscribed) A significant or strong influence or effect.",
+              "t": "a strong effect or influence",
               "c": true
+            },
+            {
+              "t": "a rough calculation",
+              "c": false
+            },
+            {
+              "t": "an outflow",
+              "c": false
             }
           ]
         },
@@ -1310,15 +1310,15 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "The ______ of the research was widely discussed at the conference.",
-          "g": "The management of money and other assets.",
+          "g": "方法；方法论",
           "opts": [
             {
-              "t": "concept",
-              "c": false
+              "t": "methodology",
+              "c": true
             },
             {
               "t": "finance",
-              "c": true
+              "c": false
             },
             {
               "t": "factor",
@@ -1330,15 +1330,15 @@ window.AWL_Q[1] = {
           "p": "B",
           "t": "mcq",
           "s": "The report highlights the ______ of sustainable development.",
-          "g": "A line or series of mountains, buildings, etc.",
+          "g": "重要性；意义",
           "opts": [
             {
-              "t": "legislate",
-              "c": false
+              "t": "significance",
+              "c": true
             },
             {
               "t": "range",
-              "c": true
+              "c": false
             },
             {
               "t": "item",
@@ -1350,56 +1350,56 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "primary",
-          "m": "First or earliest in a group or series.",
-          "g": "First or earliest in a group or series.",
-          "ans": true
+          "m": "first or earliest in a group or series",
+          "ans": true,
+          "g": "主要的；首要的"
         },
         {
           "p": "C",
           "t": "tf",
           "w": "administration",
-          "m": "(uncountable) The act of administering; government of public affairs; the service render…",
-          "g": "(uncountable) The act of administering; government of public affairs; the service render…",
-          "ans": true
+          "m": "the act of managing or governing",
+          "ans": true,
+          "g": "管理；行政"
         },
         {
           "p": "D",
           "t": "text",
           "s": "The report highlights the ______ of sustainable development.",
-          "g": "Different from one another (with the preferable adposition being \"from\").",
-          "base": "distinct",
+          "base": "significant",
           "ans": [
-            "indistinct"
-          ]
+            "significance"
+          ],
+          "g": "重要性；意义"
         },
         {
           "p": "D",
           "t": "text",
           "s": "Without proper ______, the project cannot proceed.",
-          "g": "(transitive) To become aware of, through the physical senses, to see; to understand.",
-          "base": "perceive",
+          "base": "equipment",
           "ans": [
-            "perception"
-          ]
+            "equipment"
+          ],
+          "g": "设备；器材"
         },
         {
           "p": "E",
           "t": "text",
           "s": "A key r______ in the study was the large sample size.",
-          "g": "Naturally to demand (something) as indispensable; to need, to call for as necessary.",
           "ans": [
-            "require"
+            "requirement"
           ],
+          "g": "要求；必要条件",
           "first": "r"
         },
         {
           "p": "E",
           "t": "text",
           "s": "A key s______ in the study was the large sample size.",
-          "g": "A particular view; an examination, especially an official examination, of a particular g…",
           "ans": [
-            "survey"
+            "strength"
           ],
+          "g": "优势；长处",
           "first": "s"
         }
       ]
