@@ -1019,7 +1019,7 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to hand something directly to another person",
+              "t": "to copy information from one document or system to another",
               "c": false
             }
           ]
@@ -1249,7 +1249,7 @@ window.AWL_Q[1] = {
             "confirmed"
           ],
           "g": "确认；证实",
-          "first": "t"
+          "first": "c"
         },
         {
           "p": "E",

@@ -34,7 +34,7 @@ window.AWL_Q[4] = {
           "g": "提倡；拥护",
           "opts": [
             {
-              "t": "to decorate the inside of a building with paintings",
+              "t": "to speak out against something publicly",
               "c": false
             },
             {
@@ -42,7 +42,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to charge someone with a serious criminal offence",
+              "t": "to remain neutral and avoid taking sides",
               "c": false
             }
           ]
@@ -465,7 +465,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to paint a ceiling using a long-handled roller",
+              "t": "to move very gently without any real change",
               "c": false
             }
           ]
@@ -880,7 +880,7 @@ window.AWL_Q[4] = {
           "g": "展览；表现",
           "opts": [
             {
-              "t": "to hide a painting behind a curtain so nobody can see it",
+              "t": "to completely ignore or overlook something",
               "c": false
             },
             {
@@ -888,7 +888,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to boil vegetables until they become completely soft",
+              "t": "to take something away from its owner",
               "c": false
             }
           ]
@@ -1005,11 +1005,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to light a candle in a darkened room",
+              "t": "to state something openly with no evidence",
               "c": false
             },
             {
-              "t": "to weigh ingredients on a kitchen scale",
+              "t": "to deny that something is true",
               "c": false
             }
           ]
@@ -1029,7 +1029,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "painted on the outside wall of a building",
+              "t": "stated openly and directly with no room for doubt",
               "c": false
             }
           ]
@@ -1146,11 +1146,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a person who forecasts the weather on television",
+              "t": "a person who opposes or fights against a leader",
               "c": false
             },
             {
-              "t": "a large farm where cattle and horses are raised",
+              "t": "a person who works under someone's supervision",
               "c": false
             }
           ]
@@ -1287,11 +1287,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a type of decorative wallpaper used in living rooms",
+              "t": "a temporary structure that will be removed later",
               "c": false
             },
             {
-              "t": "a sweet sauce poured over ice cream",
+              "t": "the top surface of something that can be seen",
               "c": false
             }
           ]

@@ -38,11 +38,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to chew food very slowly and thoroughly before swallowing",
+              "t": "to keep something all for oneself without sharing it",
               "c": false
             },
             {
-              "t": "to paint the ceiling of a room in a bright colour",
+              "t": "to use or consume something for one's own benefit",
               "c": false
             }
           ]
@@ -159,11 +159,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to physically carry water from a river to a nearby village",
+              "t": "to refuse to change or modify anything",
               "c": false
             },
             {
-              "t": "to knit a warm jumper from thick winter wool",
+              "t": "to destroy or completely remove something",
               "c": false
             }
           ]
@@ -743,11 +743,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to carefully fold a paper map and put it into a glove box",
+              "t": "to throw something away when it is no longer needed",
               "c": false
             },
             {
-              "t": "to dig a deep hole in the middle of a muddy field",
+              "t": "to prevent something from being used or accessed",
               "c": false
             }
           ]
@@ -864,11 +864,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to gently stroke a cat behind its ears",
+              "t": "to keep something exactly as it is without change",
               "c": false
             },
             {
-              "t": "to lift a heavy box from the floor onto a high shelf",
+              "t": "to bring something back to its original state",
               "c": false
             }
           ]
@@ -1005,11 +1005,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to sing a popular song in a very loud voice",
+              "t": "to remain exactly the same over a long period",
               "c": false
             },
             {
-              "t": "to tightly screw a light bulb into a ceiling fixture",
+              "t": "to remove or take apart something completely",
               "c": false
             }
           ]
@@ -1025,11 +1025,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "a person who repairs leaking taps and water pipes",
+              "t": "a person who reads books aloud for a living",
               "c": false
             },
             {
-              "t": "a large wild animal that lives in mountain forests",
+              "t": "an expert or specialist in a particular field",
               "c": false
             }
           ]
@@ -1287,11 +1287,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to paint the outside of a house in a single afternoon",
+              "t": "to avoid or keep away from someone on purpose",
               "c": false
             },
             {
-              "t": "to bake a loaf of bread in a traditional clay oven",
+              "t": "to physically touch or harm someone",
               "c": false
             }
           ]

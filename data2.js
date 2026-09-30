@@ -18,11 +18,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to organise a large public celebration or parade",
+              "t": "to refuse to accept or admit something",
               "c": false
             },
             {
-              "t": "to sing as a member of a church choir on Sundays",
+              "t": "to fail to fulfil a duty or obligation",
               "c": false
             }
           ]
@@ -179,11 +179,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to politely decline an invitation to a formal dinner",
+              "t": "to remove or take away a restriction or requirement",
               "c": false
             },
             {
-              "t": "to carefully wrap a fragile object in soft paper",
+              "t": "to grant freedom or release from constraint",
               "c": false
             }
           ]
@@ -320,11 +320,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to throw something away into a rubbish bin",
+              "t": "to lose or get rid of something accidentally",
               "c": false
             },
             {
-              "t": "to paint over an old wall with a fresh coat of colour",
+              "t": "to accept and keep something for a short period",
               "c": false
             }
           ]
@@ -461,11 +461,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a type of soft fabric woven from cotton threads",
+              "t": "a natural occurrence that cannot be explained",
               "c": false
             },
             {
-              "t": "a formal speech given at a graduation ceremony",
+              "t": "a basic requirement or qualification for something",
               "c": false
             }
           ]
@@ -724,11 +724,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to guess the outcome of a sporting event",
+              "t": "to make something less certain or predictable",
               "c": false
             },
             {
-              "t": "to iron a shirt until it is completely wrinkle-free",
+              "t": "to avoid taking responsibility for something",
               "c": false
             }
           ]
@@ -744,11 +744,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to invite someone to join an exclusive club",
+              "t": "to include or involve someone in a group or activity",
               "c": false
             },
             {
-              "t": "to water a garden thoroughly on a hot afternoon",
+              "t": "to provide someone with a place to live temporarily",
               "c": false
             }
           ]
@@ -1167,11 +1167,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a sharp turn in the direction of a moving vehicle",
+              "t": "a deep feeling of sadness or grief",
               "c": false
             },
             {
-              "t": "the height of a mountain above sea level",
+              "t": "the speed at which something travels",
               "c": false
             }
           ]
