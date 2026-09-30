@@ -22,7 +22,7 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "written down by hand rather than typed",
+              "t": "too minor to deserve serious attention",
               "c": false
             }
           ]
@@ -34,7 +34,7 @@ window.AWL_Q[1] = {
           "g": "获得；起源于",
           "opts": [
             {
-              "t": "to strongly dislike something or someone",
+              "t": "to create something entirely from scratch",
               "c": false
             },
             {
@@ -42,7 +42,7 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to send a formal written complaint",
+              "t": "to remove or take away something completely",
               "c": false
             }
           ]
@@ -337,7 +337,7 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "percent",
+              "t": "resource",
               "c": false
             },
             {
@@ -357,11 +357,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "item",
+              "t": "function",
               "c": false
             },
             {
-              "t": "survey",
+              "t": "element",
               "c": false
             }
           ]
@@ -378,7 +378,7 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "reside",
-          "m": "to formally refuse an offer or an invitation",
+          "m": "to move frequently from one place to another without a permanent home",
           "ans": false,
           "g": "居住"
         },
@@ -476,11 +476,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "role",
+              "t": "problem",
               "c": false
             },
             {
-              "t": "method",
+              "t": "topic",
               "c": false
             }
           ]
@@ -575,11 +575,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to eat food as quickly as possible",
+              "t": "to destroy or shut down an existing operation",
               "c": false
             },
             {
-              "t": "to fold a letter and put it into an envelope",
+              "t": "to change the appearance of something completely",
               "c": false
             }
           ]
@@ -595,11 +595,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to divide a whole into two equal parts",
+              "t": "to avoid or stay away from an event deliberately",
               "c": false
             },
             {
-              "t": "to make a formal legal complaint about someone",
+              "t": "to organise an event for other people to attend",
               "c": false
             }
           ]
@@ -615,11 +615,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "distributed",
+              "t": "advised",
               "c": false
             },
             {
-              "t": "contracted",
+              "t": "prohibited",
               "c": false
             }
           ]
@@ -714,11 +714,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to make a very loud, deep sound",
+              "t": "to collect and keep something in one place",
               "c": false
             },
             {
-              "t": "to fall asleep during the daytime",
+              "t": "to hide something so others cannot find it",
               "c": false
             }
           ]
@@ -734,11 +734,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "extremely old and worth a great deal of money",
+              "t": "completely unsuitable or unacceptable",
               "c": false
             },
             {
-              "t": "unable to hear any sound at all",
+              "t": "extremely expensive and luxurious",
               "c": false
             }
           ]
@@ -935,7 +935,7 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "credit",
-          "m": "to publicly insult or shame someone in front of an audience",
+          "m": "to express doubt or disbelief about someone's statement",
           "ans": false,
           "g": "赞扬；信用"
         },
@@ -995,11 +995,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to argue angrily with a colleague at work",
+              "t": "to make an approximate guess without data",
               "c": false
             },
             {
-              "t": "to paint a garden wall a brand-new colour",
+              "t": "to write down numbers in an orderly list",
               "c": false
             }
           ]
@@ -1011,7 +1011,7 @@ window.AWL_Q[1] = {
           "g": "转移；转让",
           "opts": [
             {
-              "t": "to translate a long text from one language into another",
+              "t": "to keep something in the same place without moving it",
               "c": false
             },
             {
@@ -1019,7 +1019,7 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to grow vegetables in a backyard garden",
+              "t": "to hand something directly to another person",
               "c": false
             }
           ]
@@ -1140,7 +1140,7 @@ window.AWL_Q[1] = {
               "c": false
             },
             {
-              "t": "to sell fresh goods at a weekly outdoor market",
+              "t": "to refuse to believe something without clear proof",
               "c": false
             }
           ]
@@ -1160,7 +1160,7 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to watch a sporting event from the stands",
+              "t": "to give something away freely to others",
               "c": false
             }
           ]
@@ -1192,11 +1192,11 @@ window.AWL_Q[1] = {
           "g": "部分；栏目",
           "opts": [
             {
-              "t": "chapter",
+              "t": "column",
               "c": false
             },
             {
-              "t": "category",
+              "t": "division",
               "c": false
             },
             {
@@ -1217,38 +1217,38 @@ window.AWL_Q[1] = {
           "p": "C",
           "t": "tf",
           "w": "seek",
-          "m": "to deliberately hide from someone who is trying to find you",
+          "m": "to avoid meeting or speaking to someone you dislike",
           "ans": false,
           "g": "寻找；寻求"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ background of students can affect their learning style and classroom behaviour.",
-          "base": "culture",
+          "s": "The new factory was designed to be e______ friendly, using solar power and recycled materials throughout.",
+          "base": "environment",
           "ans": [
-            "cultural"
+            "environmentally"
           ],
-          "g": "文化的"
+          "g": "环境方面地；环保地"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Once the safety checks are complete, the team will ______ to the next stage of the experiment.",
-          "base": "proceed",
+          "s": "The bridge was closed for urgent repairs; ______, traffic was diverted through the town centre for several weeks.",
+          "base": "consequent",
           "ans": [
-            "proceed"
+            "consequently"
           ],
-          "g": "继续；进行"
+          "g": "因此；所以"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "Einstein's t______ of relativity changed the way physicists understand space and time.",
+          "s": "After weighing all the evidence carefully, the jury finally c______ that the defendant was guilty, ending three weeks of uncertainty.",
           "ans": [
-            "theory"
+            "confirmed"
           ],
-          "g": "理论；学说",
+          "g": "确认；证实",
           "first": "t"
         },
         {

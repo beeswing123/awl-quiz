@@ -1093,12 +1093,12 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The literary critic drew attention to the ______ differences between the author's early and late novels.",
-          "base": "style",
+          "s": "Modern abstract art often uses highly ______ forms that challenge conventional ideas of beauty.",
+          "base": "abstract",
           "ans": [
-            "stylistic"
+            "abstract"
           ],
-          "g": "风格上的"
+          "g": "抽象的"
         },
         {
           "p": "D",
