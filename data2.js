@@ -324,7 +324,7 @@ window.AWL_Q[2] = {
               "c": false
             },
             {
-              "t": "to accept and keep something for a short period",
+              "t": "to return something to its original owner after using it",
               "c": false
             }
           ]

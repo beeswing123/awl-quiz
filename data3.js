@@ -549,7 +549,7 @@ window.AWL_Q[3] = {
         {
           "p": "E",
           "t": "text",
-          "s": "Wind turbines can generate enough e______ to power a small town for several decades.",
+          "s": "Wind turbines can generate enough e______ to power a small town all year round.",
           "ans": [
             "energy"
           ],
@@ -1093,12 +1093,12 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Modern abstract art often uses highly ______ forms that challenge conventional ideas of beauty.",
-          "base": "abstract",
+          "s": "Money is often assumed to be the main ______, yet many volunteers work for no financial reward at all.",
+          "base": "motive",
           "ans": [
-            "abstract"
+            "motivation"
           ],
-          "g": "抽象的"
+          "g": "动机；动力"
         },
         {
           "p": "D",
@@ -1311,7 +1311,7 @@ window.AWL_Q[3] = {
               "c": false
             },
             {
-              "t": "to express thanks or gratitude for something",
+              "t": "to strongly criticise someone's actions in public",
               "c": false
             }
           ]

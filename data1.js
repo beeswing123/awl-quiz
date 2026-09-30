@@ -476,11 +476,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "problem",
+              "t": "ceremony",
               "c": false
             },
             {
-              "t": "topic",
+              "t": "slogan",
               "c": false
             }
           ]
@@ -1083,12 +1083,12 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The bridge's unusual ______ was inspired by the shape of a spider's web.",
-          "base": "design",
+          "s": "It is ______ to drive a motor vehicle without valid insurance in almost every country.",
+          "base": "legal",
           "ans": [
-            "design"
+            "illegal"
           ],
-          "g": "设计；图案"
+          "g": "非法的；违法的"
         },
         {
           "p": "D",
@@ -1192,7 +1192,7 @@ window.AWL_Q[1] = {
           "g": "部分；栏目",
           "opts": [
             {
-              "t": "column",
+              "t": "headline",
               "c": false
             },
             {
@@ -1224,7 +1224,7 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The new factory was designed to be e______ friendly, using solar power and recycled materials throughout.",
+          "s": "The new factory was designed to be ______ friendly, using solar power and recycled materials throughout.",
           "base": "environment",
           "ans": [
             "environmentally"
@@ -1368,19 +1368,19 @@ window.AWL_Q[1] = {
           "s": "The research ______ was established in 1985 to study tropical diseases.",
           "base": "institute",
           "ans": [
-            "institute"
+            "institution"
           ],
           "g": "机构；研究所"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Doctors are studying how long-term stress can ______ a person's immune system.",
-          "base": "affect",
+          "s": "Rising energy costs have caused serious ______ hardship for many low-income families this winter.",
+          "base": "economy",
           "ans": [
-            "affect"
+            "economic"
           ],
-          "g": "影响；作用"
+          "g": "经济的"
         },
         {
           "p": "E",

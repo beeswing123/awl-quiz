@@ -257,7 +257,7 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The surgeon specialises in the ______ of movement to patients with damaged spinal cords.",
+          "s": "The quick ______ of blood flow to the blocked artery saved the patient's heart muscle from permanent damage.",
           "base": "restore",
           "ans": [
             "restoration"
@@ -727,7 +727,7 @@ window.AWL_Q[4] = {
               "c": false
             },
             {
-              "t": "to allow or permit an activity",
+              "t": "to warn the public about the dangers of an activity",
               "c": false
             }
           ]
@@ -787,7 +787,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "lottery",
+              "t": "economy",
               "c": false
             }
           ]
@@ -811,12 +811,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ of new evidence mid-trial forced the judge to delay the verdict by a full week.",
+          "s": "The rapid ______ of anaesthesia allowed the surgeons to begin the operation within two minutes.",
           "base": "induce",
           "ans": [
             "induction"
           ],
-          "g": "引入；诱导"
+          "g": "诱导；引发"
         },
         {
           "p": "D",
@@ -1123,7 +1123,7 @@ window.AWL_Q[4] = {
         {
           "p": "E",
           "t": "text",
-          "s": "The p______ language spoken in these coastal villages is a dialect of old Norse.",
+          "s": "The p______ language spoken in these coastal villages is a dialect descended from Old Norse.",
           "ans": [
             "predominant"
           ],
