@@ -18,11 +18,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "a type of soft cheese traditionally made in northern Italy",
+              "t": "a market stall selling fresh fruit and vegetables",
               "c": false
             },
             {
-              "t": "a sharp tool used for cutting through thick metal sheets",
+              "t": "a long journey taken for pleasure or exploration",
               "c": false
             }
           ]
@@ -179,11 +179,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "describing a meal served only at breakfast time on weekends",
+              "t": "relating to a single person's private affairs",
               "c": false
             },
             {
-              "t": "referring to desert plants that bloom once every ten years",
+              "t": "relating to religious organisations and their rules",
               "c": false
             }
           ]
@@ -320,11 +320,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to deliberately break a fragile object into small pieces",
+              "t": "to worsen or deteriorate over time",
               "c": false
             },
             {
-              "t": "to send a parcel overseas by airmail",
+              "t": "to transfer or pass something to someone else",
               "c": false
             }
           ]
@@ -441,11 +441,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "a soft cushion placed on a wooden dining chair",
+              "t": "an easy task that requires little effort",
               "c": false
             },
             {
-              "t": "a type of tropical fruit with a thick yellow skin",
+              "t": "a written record of daily events or activities",
               "c": false
             }
           ]
@@ -465,7 +465,7 @@ window.AWL_Q[3] = {
               "c": false
             },
             {
-              "t": "to carefully wrap a fragile item in layers of paper",
+              "t": "to reduce or diminish the quality of something",
               "c": false
             }
           ]
@@ -582,11 +582,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to build a tall wooden fence around a property",
+              "t": "to make a process more difficult or complicated",
               "c": false
             },
             {
-              "t": "to slowly pour tea from one cup into another",
+              "t": "to prevent someone from doing something",
               "c": false
             }
           ]
@@ -606,7 +606,7 @@ window.AWL_Q[3] = {
               "c": false
             },
             {
-              "t": "to polish a pair of leather shoes until they shine",
+              "t": "to keep something separate and outside a larger whole",
               "c": false
             }
           ]
@@ -723,11 +723,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "painted in a wide range of bright summer colours",
+              "t": "based on personal feelings rather than on facts",
               "c": false
             },
             {
-              "t": "describing food that has been cooked for far too long",
+              "t": "expressing a strong dislike or hatred of something",
               "c": false
             }
           ]
@@ -888,7 +888,7 @@ window.AWL_Q[3] = {
               "c": false
             },
             {
-              "t": "to gently heat milk in a small saucepan",
+              "t": "to increase the size or power of something",
               "c": false
             }
           ]
@@ -1150,7 +1150,7 @@ window.AWL_Q[3] = {
               "c": false
             },
             {
-              "t": "to carefully iron a cotton shirt before wearing it",
+              "t": "to abandon or give up on a plan or goal",
               "c": false
             }
           ]
@@ -1166,11 +1166,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to sign a greeting card and mail it to a colleague",
+              "t": "to remove or dismiss someone from their position",
               "c": false
             },
             {
-              "t": "to slowly stir sugar into a cup of hot coffee",
+              "t": "to combine or merge two groups into one",
               "c": false
             }
           ]
@@ -1311,7 +1311,7 @@ window.AWL_Q[3] = {
               "c": false
             },
             {
-              "t": "to knit a pair of woollen socks by hand",
+              "t": "to express thanks or gratitude for something",
               "c": false
             }
           ]

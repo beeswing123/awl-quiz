@@ -42,7 +42,7 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to fold clothes neatly into a tall pile on a shelf",
+              "t": "to dismantle or take apart a complex machine",
               "c": false
             }
           ]
@@ -441,7 +441,7 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a type of tropical fruit grown in equatorial regions",
+              "t": "a complete unit that cannot be divided further",
               "c": false
             },
             {
@@ -587,7 +587,7 @@ window.AWL_Q[2] = {
               "c": false
             },
             {
-              "t": "to polish a pair of leather shoes until they shine",
+              "t": "to withdraw financial support from a project",
               "c": false
             }
           ]
@@ -865,11 +865,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a type of large reptile that lived during the Cretaceous period",
+              "t": "a well-established theory accepted as scientific fact",
               "c": false
             },
             {
-              "t": "a musical instrument played with a bow",
+              "t": "a feeling of doubt about whether something is true",
               "c": false
             }
           ]
@@ -889,7 +889,7 @@ window.AWL_Q[2] = {
               "c": false
             },
             {
-              "t": "to paste a poster onto a notice board",
+              "t": "to explain something in a completely clear and direct way",
               "c": false
             }
           ]
@@ -1010,7 +1010,7 @@ window.AWL_Q[2] = {
               "c": false
             },
             {
-              "t": "to repair a broken window frame in an old building",
+              "t": "to cancel or call off a planned meeting",
               "c": false
             }
           ]
@@ -1030,7 +1030,7 @@ window.AWL_Q[2] = {
               "c": false
             },
             {
-              "t": "to take a short nap on a comfortable sofa",
+              "t": "to refuse to accept responsibility for a task",
               "c": false
             }
           ]
@@ -1151,7 +1151,7 @@ window.AWL_Q[2] = {
               "c": false
             },
             {
-              "t": "made entirely from recycled aluminium cans",
+              "t": "the default option offered by most manufacturers",
               "c": false
             }
           ]
@@ -1288,11 +1288,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a type of round bread roll eaten at breakfast",
+              "t": "a planned event or celebration",
               "c": false
             },
             {
-              "t": "a formal dance held at the end of the school year",
+              "t": "a person's usual mood or temperament",
               "c": false
             }
           ]

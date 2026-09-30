@@ -18,11 +18,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to print a book in a much smaller font size",
+              "t": "to remain unchanged in a new environment",
               "c": false
             },
             {
-              "t": "to carry a heavy box up a steep flight of stairs",
+              "t": "to move away from a place permanently",
               "c": false
             }
           ]
@@ -163,7 +163,7 @@ window.AWL_Q[4] = {
               "c": false
             },
             {
-              "t": "to translate a text from French into English",
+              "t": "to combine or merge two things together",
               "c": false
             }
           ]
@@ -175,7 +175,7 @@ window.AWL_Q[4] = {
           "g": "现象",
           "opts": [
             {
-              "t": "a type of sweet dessert served at the end of a meal",
+              "t": "a formal rule or regulation",
               "c": false
             },
             {
@@ -183,7 +183,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a formal document giving someone permission to drive",
+              "t": "a feeling of strong dislike or repulsion",
               "c": false
             }
           ]
@@ -300,11 +300,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to drive a car at a very high speed on a motorway",
+              "t": "to do work manually without using machines",
               "c": false
             },
             {
-              "t": "to plant seeds in a long straight line across a field",
+              "t": "to reduce the number of employees in a company",
               "c": false
             }
           ]
@@ -324,7 +324,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to wrap a fragile object in several layers of paper",
+              "t": "to receive or accept something sent from elsewhere",
               "c": false
             }
           ]
@@ -441,11 +441,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a song sung by a choir at a religious ceremony",
+              "t": "a legal right granted by a government",
               "c": false
             },
             {
-              "t": "a small decorative box for keeping jewellery safe",
+              "t": "an agreement reached between two parties",
               "c": false
             }
           ]
@@ -582,11 +582,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "related to the empires and colonies of ancient Rome",
+              "t": "based on theory alone without any practical testing",
               "c": false
             },
             {
-              "t": "deeply fond of eating expensive restaurant meals",
+              "t": "relating to religious beliefs and practices",
               "c": false
             }
           ]
@@ -727,7 +727,7 @@ window.AWL_Q[4] = {
               "c": false
             },
             {
-              "t": "to sell fresh vegetables at a weekend market",
+              "t": "to allow or permit an activity",
               "c": false
             }
           ]
@@ -747,7 +747,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to knit a woollen jumper by hand",
+              "t": "to write down exactly what someone has said",
               "c": false
             }
           ]
@@ -864,11 +864,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "made entirely from recycled plastic bottles",
+              "t": "of very poor quality and not worth keeping",
               "c": false
             },
             {
-              "t": "sold at a tiny fraction of its original price",
+              "t": "produced in large quantities using modern methods",
               "c": false
             }
           ]
@@ -1029,7 +1029,7 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "stated openly and directly with no room for doubt",
+              "t": "difficult to understand or explain clearly",
               "c": false
             }
           ]
@@ -1166,11 +1166,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a small piece of jewellery worn on a chain around the neck",
+              "t": "a request for payment sent to a customer",
               "c": false
             },
             {
-              "t": "a type of sweet dessert served cold",
+              "t": "a personal opinion about something's quality",
               "c": false
             }
           ]
@@ -1311,7 +1311,7 @@ window.AWL_Q[4] = {
               "c": false
             },
             {
-              "t": "a small bag carried around the waist during a run",
+              "t": "a long written account of past events",
               "c": false
             }
           ]

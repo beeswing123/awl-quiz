@@ -1277,11 +1277,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "a rare type of flowering plant found in deserts",
+              "t": "a period of time spent waiting for something",
               "c": false
             },
             {
-              "t": "a formal legal document filed in court",
+              "t": "an opinion held by most people in a community",
               "c": false
             }
           ]
