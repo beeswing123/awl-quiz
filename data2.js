@@ -18,11 +18,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "to refuse to accept or admit something",
+              "t": "to refuse to accept or admit that something exists or is true",
               "c": false
             },
             {
-              "t": "to fail to fulfil a duty or obligation",
+              "t": "to fail to fulfil a duty, obligation, or promise that was made",
               "c": false
             }
           ]
@@ -473,7 +473,7 @@ window.AWL_Q[2] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The software allows engineers to fine-tune each ______ until the model produces stable output.",
+          "s": "The software allows engineers to fine-tune each ______ until the model produces stable and reliable results.",
           "g": "参数；参量",
           "opts": [
             {
@@ -539,7 +539,7 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Every component must meet the exact ______ laid down in the engineering manual.",
+          "s": "Every single part must meet the exact ______ laid down in the engineering manual.",
           "base": "specify",
           "ans": [
             "specification",
@@ -1167,11 +1167,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a deep feeling of sadness or grief",
+              "t": "a deep feeling of sadness or grief that lasts for a long time",
               "c": false
             },
             {
-              "t": "the speed at which something travels",
+              "t": "the speed at which something moves or travels over a period of time",
               "c": false
             }
           ]
@@ -1288,11 +1288,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "a planned event or celebration",
+              "t": "a planned event or celebration that has been organised for a purpose",
               "c": false
             },
             {
-              "t": "a person's usual mood or temperament",
+              "t": "a person's usual mood or temperament over a long period of time",
               "c": false
             }
           ]
@@ -1308,11 +1308,11 @@ window.AWL_Q[2] = {
               "c": true
             },
             {
-              "t": "completely amateur and done purely for fun",
+              "t": "completely amateur and done purely for fun without any serious purpose",
               "c": false
             },
             {
-              "t": "made of expensive polished leather",
+              "t": "made of expensive polished leather or another high-quality material",
               "c": false
             }
           ]

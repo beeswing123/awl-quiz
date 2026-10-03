@@ -456,11 +456,11 @@ window.AWL_Q[1] = {
               "c": true
             },
             {
-              "t": "to praise someone highly in public",
+              "t": "to praise someone highly in a public or formal setting",
               "c": false
             },
             {
-              "t": "to repair a broken piece of machinery",
+              "t": "to repair a broken piece of machinery or equipment",
               "c": false
             }
           ]
@@ -627,7 +627,7 @@ window.AWL_Q[1] = {
         {
           "p": "B",
           "t": "mcq",
-          "s": "The region has enormous ______ for tourism, but it currently lacks good transport links.",
+          "s": "The coastal area has enormous ______ for tourism, but it currently lacks good transport links.",
           "g": "潜力；潜在的",
           "opts": [
             {
@@ -692,7 +692,7 @@ window.AWL_Q[1] = {
         {
           "p": "E",
           "t": "text",
-          "s": "Most of the country's industry is concentrated in one r______ around the capital.",
+          "s": "Most of the country's industry is concentrated in one particular r______ near the capital.",
           "ans": [
             "region"
           ],

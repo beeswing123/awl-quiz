@@ -398,9 +398,7 @@
     let finished=0, totalScore=0, maxScore=0, wrongs=0;
     Object.keys(stateStore).forEach(k=>{
       const st=stateStore[k]; if(!st) return;
-      const done=st.answers.filter(Boolean).length;
       if(st.finished){finished++; const s=st.answers.filter(a=>a&&a.ok).length; totalScore+=s; maxScore+=st.answers.length;}
-      else if(done>0){ maxScore+=st.answers.length; totalScore+=st.answers.filter(a=>a&&a.ok).length; }
       st.answers.forEach(a=>{if(a&&!a.ok) wrongs++;});
     });
     const pct=maxScore?Math.round(totalScore/maxScore*100):0;
@@ -512,9 +510,14 @@
     $("m-title").textContent=title; $("m-body").textContent=body;
     $("m-ok").textContent=okText||"确定";
     $("m-cancel").textContent=cancelText||"取消";
-    $("modal-mask").classList.remove("hidden");
-    $("m-ok").onclick=()=>{$("modal-mask").classList.add("hidden");onOk&&onOk()};
-    $("m-cancel").onclick=()=>$("modal-mask").classList.add("hidden");
+    const mask=$("modal-mask");
+    mask.setAttribute("role","dialog"); mask.setAttribute("aria-modal","true");
+    mask.classList.remove("hidden");
+    $("m-ok").onclick=()=>{mask.classList.add("hidden");onOk&&onOk()};
+    $("m-cancel").onclick=()=>{mask.classList.add("hidden")};
+    mask.onclick=e=>{if(e.target===mask)mask.classList.add("hidden")};
+    document.addEventListener("keydown",function esc(e){if(e.key==="Escape"){mask.classList.add("hidden");document.removeEventListener("keydown",esc);}});
+    $("m-ok").focus();
   }
   function askResume(q,s,st){
     const done=st.answers.filter(Boolean).length;
@@ -524,9 +527,19 @@
       : `本套已作答 ${done}/10 题。可继续上次答题，或清空重新开始。`;
     $("m-ok").textContent="继续答题";
     $("m-cancel").textContent="清空重做";
-    $("modal-mask").classList.remove("hidden");
-    $("m-ok").onclick=()=>{$("modal-mask").classList.add("hidden");startSet(q,s,true)};
-    $("m-cancel").onclick=()=>{$("modal-mask").classList.add("hidden");startSet(q,s,false)};
+    const mask=$("modal-mask");
+    mask.setAttribute("role","dialog"); mask.setAttribute("aria-modal","true");
+    mask.classList.remove("hidden");
+    $("m-ok").onclick=()=>{mask.classList.add("hidden");startSet(q,s,true)};
+    $("m-cancel").onclick=()=>{
+      mask.classList.add("hidden");
+      const oldOrder=(st&&st.order)?st.order.map(o=>o?o.slice():null):null;
+      startSet(q,s,false);
+      if(oldOrder){ order=oldOrder; persist(); renderQ(); }
+    };
+    mask.onclick=e=>{if(e.target===mask)mask.classList.add("hidden")};
+    document.addEventListener("keydown",function esc(e){if(e.key==="Escape"){mask.classList.add("hidden");document.removeEventListener("keydown",esc);}});
+    $("m-ok").focus();
   }
 
   /* ---------------- SESSION ---------------- */
@@ -570,8 +583,9 @@
     clearHint();
     $("part-chip").textContent=PART_META[qq.p][0];
     $("part-desc").textContent=PART_META[qq.p][1];
-    $("q-count").textContent=`第 ${idx+1} / ${questions.length} 题`;
-    $("bar-fill").style.width=(answers.filter(Boolean).length/questions.length*100)+"%";
+    const answered=answers.filter(Boolean).length;
+    $("q-count").textContent=`已作答 ${answered}/${questions.length} · 第 ${idx+1} 题`;
+    $("bar-fill").style.width=(answered/questions.length*100)+"%";
     if(drafts.length<questions.length) drafts=drafts.concat(new Array(questions.length).fill(""));
 
     const card=$("q-card"), extra=$("q-extra"); card.innerHTML=""; extra.innerHTML="";
@@ -844,6 +858,7 @@
       if(qq.p==="A") stemHTML=`<b>${esc(qq.w)}</b>`;
       else if(qq.p==="C") stemHTML=`<b>${esc(qq.w)}</b> — ${esc(qq.m)}`;
       else stemHTML=blankHTML(esc(qq.s))+(qq.base?` <span style="color:var(--ink2);font-style:italic">(${esc(qq.base)})</span>`:"");
+      if(qq.p==="E") stemHTML+=` <span style="color:var(--ink2);font-size:12px">(首字母: ${esc(qq.first||qq.ans[0][0])})</span>`;
       const div=document.createElement("div"); div.className="rev-card";
       div.innerHTML=`<div class="rev-head"><span class="tag">Part ${qq.p}</span>第 ${i+1} 题
           <span class="rj ${a.ok?"g":"x"}">${a.ok?"✓ 正确":"✗ 错误"}</span></div>
@@ -859,9 +874,10 @@
     modal(practiceMode?"再练一遍剩余错题？":"重新做本套题？",
       practiceMode?"将重新收集当前所有错题并开始新一轮练习。":"当前答题记录将被清空，重新开始本套测验。",
       "开始",()=>{
+        const oldOrder=(stateStore[key()]&&stateStore[key()].order)?stateStore[key()].order.map(o=>o?o.slice():null):null;
         delete stateStore[key()];save(SK_STATE,stateStore);
         if(practiceMode){ const items=collectWrongItems(); if(items.length) startWrongPractice(items); else {show(views.home);renderHome();} }
-        else startSet(Q,SI,false);
+        else { startSet(Q,SI,false); if(oldOrder){ order=oldOrder; persist(); renderQ(); } }
       },"取消");
   };
 
@@ -901,6 +917,7 @@
       if(qq.p==="A") stemHTML=`<b>${esc(qq.w)}</b>`;
       else if(qq.p==="C") stemHTML=`<b>${esc(qq.w)}</b> — ${esc(qq.m)}`;
       else stemHTML=blankHTML(esc(qq.s))+(qq.base?` <span style="color:var(--ink2);font-style:italic">(${esc(qq.base)})</span>`:"");
+      if(qq.p==="E") stemHTML+=` <span style="color:var(--ink2);font-size:12px">(首字母: ${esc(qq.first||qq.ans[0][0])})</span>`;
       const div=document.createElement("div"); div.className="rev-card";
       div.innerHTML=`<div class="rev-head"><span class="tag">Q${w.q}-${w.si+1} · Part ${qq.p}</span>
           <span class="rj x">✗</span></div>

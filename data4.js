@@ -18,11 +18,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to remain unchanged in a new environment",
+              "t": "to remain completely unchanged in a new environment without making any adjustments",
               "c": false
             },
             {
-              "t": "to move away from a place permanently",
+              "t": "to move away from a place permanently and settle somewhere else instead",
               "c": false
             }
           ]
@@ -159,11 +159,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to mix two medicines together in the same bottle",
+              "t": "to mix two medicines together in the same bottle without checking whether they are safe",
               "c": false
             },
             {
-              "t": "to combine or merge two things together",
+              "t": "to combine or merge two things together so that they form a single unit or group",
               "c": false
             }
           ]
@@ -175,15 +175,15 @@ window.AWL_Q[4] = {
           "g": "现象",
           "opts": [
             {
-              "t": "a formal rule or regulation",
+              "t": "something that exists or happens, especially something remarkable or unusual",
               "c": false
             },
             {
-              "t": "something that exists or happens, especially something remarkable or unusual",
+              "t": "a formal rule or regulation that has been established by an authority or organisation",
               "c": true
             },
             {
-              "t": "a feeling of strong dislike or repulsion",
+              "t": "a feeling of strong dislike or repulsion that someone experiences towards something they find unpleasant",
               "c": false
             }
           ]
@@ -880,15 +880,15 @@ window.AWL_Q[4] = {
           "g": "展览；表现",
           "opts": [
             {
-              "t": "to completely ignore or overlook something",
+              "t": "to show a particular quality, emotion, or ability in one's behaviour",
               "c": false
             },
             {
-              "t": "to show a particular quality, emotion, or ability in one's behaviour",
+              "t": "to completely ignore or overlook something that is obvious or important to other people",
               "c": true
             },
             {
-              "t": "to take something away from its owner",
+              "t": "to take something away from its owner without permission or legal right to do so",
               "c": false
             }
           ]
@@ -1005,11 +1005,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "to state something openly with no evidence",
+              "t": "to state something openly with no evidence or facts to support what you are saying",
               "c": false
             },
             {
-              "t": "to deny that something is true",
+              "t": "to deny that something is true or to refuse to accept that it has happened",
               "c": false
             }
           ]
@@ -1146,11 +1146,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a person who opposes or fights against a leader",
+              "t": "a person who opposes or fights against a leader or someone in a position of authority",
               "c": false
             },
             {
-              "t": "a person who works under someone's supervision",
+              "t": "a person who works under someone's supervision and follows their instructions and guidance",
               "c": false
             }
           ]
@@ -1166,11 +1166,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a request for payment sent to a customer",
+              "t": "a request for payment sent to a customer for goods or services that have been provided",
               "c": false
             },
             {
-              "t": "a personal opinion about something's quality",
+              "t": "a personal opinion about something's quality that is not based on any formal assessment or testing",
               "c": false
             }
           ]
@@ -1287,11 +1287,11 @@ window.AWL_Q[4] = {
               "c": true
             },
             {
-              "t": "a temporary structure that will be removed later",
+              "t": "a temporary structure that will be removed later once the permanent building is completed",
               "c": false
             },
             {
-              "t": "the top surface of something that can be seen",
+              "t": "the top surface of something that can be seen and touched when you look at it from above",
               "c": false
             }
           ]

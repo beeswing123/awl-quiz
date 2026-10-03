@@ -106,7 +106,7 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Universities are trying to raise students' ______ of mental health issues during exam season.",
+          "s": "Universities are trying to raise students' ______ of psychological wellbeing issues during exam season.",
           "base": "aware",
           "ans": [
             "awareness"
@@ -136,7 +136,7 @@ window.AWL_Q[3] = {
         {
           "p": "E",
           "t": "text",
-          "s": "The visiting professor delivered a fascinating l______ on the history of artificial intelligence.",
+          "s": "The visiting professor delivered a fascinating l______ on the development of machine learning.",
           "ans": [
             "lecture"
           ],
@@ -179,11 +179,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "relating to a single person's private affairs",
+              "t": "relating to a single person's private affairs rather than to matters of state or government",
               "c": false
             },
             {
-              "t": "relating to religious organisations and their rules",
+              "t": "relating to religious organisations and their rules rather than to any system of government",
               "c": false
             }
           ]
@@ -199,11 +199,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "ministry",
+              "t": "regulation",
               "c": false
             },
             {
-              "t": "licence",
+              "t": "intensity",
               "c": false
             }
           ]
@@ -219,11 +219,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "clause",
+              "t": "authority",
               "c": false
             },
             {
-              "t": "neutral",
+              "t": "editor",
               "c": false
             }
           ]
@@ -320,11 +320,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to worsen or deteriorate over time",
+              "t": "to worsen or deteriorate over time instead of getting better or improving",
               "c": false
             },
             {
-              "t": "to transfer or pass something to someone else",
+              "t": "to transfer or pass something to someone else instead of keeping it for yourself",
               "c": false
             }
           ]
@@ -340,11 +340,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "incidence",
+              "t": "authority",
               "c": false
             },
             {
-              "t": "rational",
+              "t": "intensity",
               "c": false
             }
           ]
@@ -360,11 +360,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "capacity",
+              "t": "consensus",
               "c": false
             },
             {
-              "t": "stable",
+              "t": "editor",
               "c": false
             }
           ]
@@ -481,11 +481,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "expert",
+              "t": "consensus",
               "c": false
             },
             {
-              "t": "energy",
+              "t": "editor",
               "c": false
             }
           ]
@@ -501,11 +501,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "conflict",
+              "t": "establishment",
               "c": false
             },
             {
-              "t": "transport",
+              "t": "uniform",
               "c": false
             }
           ]
@@ -622,11 +622,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "diverse",
+              "t": "establishment",
               "c": false
             },
             {
-              "t": "target",
+              "t": "uniform",
               "c": false
             }
           ]
@@ -642,11 +642,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "entity",
+              "t": "transmission",
               "c": false
             },
             {
-              "t": "transform",
+              "t": "implicit",
               "c": false
             }
           ]
@@ -763,11 +763,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "explicit",
+              "t": "transmission",
               "c": false
             },
             {
-              "t": "expand",
+              "t": "implicit",
               "c": false
             }
           ]
@@ -783,11 +783,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "transit",
+              "t": "proportional",
               "c": false
             },
             {
-              "t": "reveal",
+              "t": "equation",
               "c": false
             }
           ]
@@ -864,11 +864,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to keep something exactly as it is without change",
+              "t": "to keep something exactly as it is without making any changes to it at all",
               "c": false
             },
             {
-              "t": "to bring something back to its original state",
+              "t": "to bring something back to its original state or condition before any changes were made",
               "c": false
             }
           ]
@@ -904,11 +904,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "bond",
+              "t": "proportional",
               "c": false
             },
             {
-              "t": "generate",
+              "t": "equation",
               "c": false
             }
           ]
@@ -924,11 +924,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "equivalent",
+              "t": "residence",
               "c": false
             },
             {
-              "t": "trace",
+              "t": "journal",
               "c": false
             }
           ]
@@ -1005,11 +1005,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "to remain exactly the same over a long period",
+              "t": "to remain exactly the same over a long period of time without any change at all",
               "c": false
             },
             {
-              "t": "to remove or take apart something completely",
+              "t": "to remove or take apart something completely so that it can no longer be used",
               "c": false
             }
           ]
@@ -1045,11 +1045,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "estate",
+              "t": "residence",
               "c": false
             },
             {
-              "t": "gender",
+              "t": "journal",
               "c": false
             }
           ]
@@ -1065,11 +1065,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "image",
+              "t": "projection",
               "c": false
             },
             {
-              "t": "abstract",
+              "t": "regulation",
               "c": false
             }
           ]
@@ -1186,11 +1186,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "subsidy",
+              "t": "projection",
               "c": false
             },
             {
-              "t": "fundamental",
+              "t": "regulation",
               "c": false
             }
           ]
@@ -1206,11 +1206,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "revenue",
+              "t": "internal",
               "c": false
             },
             {
-              "t": "incentive",
+              "t": "sector",
               "c": false
             }
           ]
@@ -1327,11 +1327,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "domain",
+              "t": "internal",
               "c": false
             },
             {
-              "t": "trend",
+              "t": "sector",
               "c": false
             }
           ]
@@ -1347,11 +1347,11 @@ window.AWL_Q[3] = {
               "c": true
             },
             {
-              "t": "external",
+              "t": "regulation",
               "c": false
             },
             {
-              "t": "presume",
+              "t": "authority",
               "c": false
             }
           ]
