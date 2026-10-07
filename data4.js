@@ -247,12 +247,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Early ______ of the virus is the key to preventing a wider outbreak among patients.",
+          "s": "The virus becomes ______ (detect) in the blood within two days of infection.",
           "base": "detect",
           "ans": [
-            "detection"
+            "detectable"
           ],
-          "g": "发现；检测"
+          "g": "可检测的；可察觉的"
         },
         {
           "p": "D",
@@ -398,12 +398,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ of the housing design gives the whole estate a calm, orderly appearance.",
+          "s": "The same safety rules must be applied ______ (uniform) to every worker on the construction site.",
           "base": "uniform",
           "ans": [
-            "uniformity"
+            "uniformly"
           ],
-          "g": "统一性；一致"
+          "g": "统一地；一致地"
         },
         {
           "p": "E",
@@ -529,22 +529,22 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The sharp ______ of the euro hurt exports from several southern European economies.",
+          "s": "After the software update, there was no ______ (appreciate) change in the computer's speed.",
           "base": "appreciate",
           "ans": [
-            "appreciation"
+            "appreciable"
           ],
-          "g": "升值；感激"
+          "g": "明显的；可察觉的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ of thousands of residents was the most painful consequence of the reservoir project.",
+          "s": "The earthquake left thousands of ______ (displace) families living in temporary shelters.",
           "base": "displace",
           "ans": [
-            "displacement"
+            "displaced"
           ],
-          "g": "取代；流离失所"
+          "g": "流离失所的；被迫离开家园的"
         },
         {
           "p": "E",
@@ -680,12 +680,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "A rise in average temperatures has measurable effects on the ______ climate system.",
+          "s": "The firm now sells its products ______ (globe), with regional offices in over thirty countries.",
           "base": "globe",
           "ans": [
-            "global"
+            "globally"
           ],
-          "g": "全球的"
+          "g": "全球地；全世界地"
         },
         {
           "p": "E",
@@ -811,22 +811,22 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The rapid ______ of anaesthesia allowed the surgeons to begin the operation within two minutes.",
+          "s": "The patient was placed in a chemically ______ (induce) sleep before the long operation.",
           "base": "induce",
           "ans": [
-            "induction"
+            "induced"
           ],
-          "g": "诱导；引发"
+          "g": "诱发的；人工导致的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ of the contract requires written notice from either party at least thirty days in advance.",
+          "s": "When the disease had spread to several organs, the doctors described it as ______ (terminate).",
           "base": "terminate",
           "ans": [
-            "termination"
+            "terminal"
           ],
-          "g": "终止；结束"
+          "g": "晚期的；不治的"
         },
         {
           "p": "E",
@@ -962,12 +962,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ between the two rival families erupts in the play's climactic final act.",
+          "s": "The students waited ______ (tense) for the exam results to appear on the screen.",
           "base": "tense",
           "ans": [
-            "tension"
+            "tensely"
           ],
-          "g": "紧张；张力"
+          "g": "紧张地"
         },
         {
           "p": "E",
@@ -1103,12 +1103,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Price ______ allows a firm to charge different customers different amounts for the same product.",
+          "s": "The school offers a highly ______ (differentiate) curriculum adapted to each student's ability.",
           "base": "differentiate",
           "ans": [
-            "differentiation"
+            "differentiated"
           ],
-          "g": "区分；差异化"
+          "g": "差异化的；分层的"
         },
         {
           "p": "E",
@@ -1234,12 +1234,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The unchecked ______ of coastal fisheries has driven several species to the edge of collapse.",
+          "s": "The report exposed factories where young workers were ______ (exploit) and paid below the minimum wage.",
           "base": "exploit",
           "ans": [
-            "exploitation"
+            "exploited"
           ],
-          "g": "开发；剥削"
+          "g": "被剥削的；被利用的"
         },
         {
           "p": "D",
@@ -1385,12 +1385,12 @@ window.AWL_Q[4] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The careful ______ of steel pins strengthened the crumbling bridge arches.",
+          "s": "As soon as the memory card is ______ (insert), the camera restarts automatically.",
           "base": "insert",
           "ans": [
-            "insertion"
+            "inserted"
           ],
-          "g": "插入；嵌入"
+          "g": "插入（过去分词）"
         },
         {
           "p": "E",

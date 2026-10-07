@@ -106,12 +106,12 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The chemistry teacher used a live ______ to show how the reaction produces gas.",
+          "s": "Three independent trials show that the new drug is ______ (demonstrate) more effective than the old one.",
           "base": "demonstrate",
           "ans": [
-            "demonstration"
+            "demonstrably"
           ],
-          "g": "示范；演示"
+          "g": "可证明地；明显地"
         },
         {
           "p": "D",
@@ -247,22 +247,22 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ of the portrait to a seventeenth-century Dutch master was confirmed by three independent experts.",
+          "s": "Most of the rise in global temperatures is directly ______ (attribute) to the burning of fossil fuels.",
           "base": "attribute",
           "ans": [
-            "attribution"
+            "attributable"
           ],
-          "g": "归属；归因"
+          "g": "可归因于……的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The smooth ______ of newly arrived migrants into the workforce remains a policy priority.",
+          "s": "The hospital opened a fully ______ (integrate) care centre where doctors, nurses and therapists work together.",
           "base": "integrate",
           "ans": [
-            "integration"
+            "integrated"
           ],
-          "g": "融合；一体化"
+          "g": "综合的；整合的"
         },
         {
           "p": "E",
@@ -388,22 +388,22 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The patient developed a severe allergic ______ within minutes of receiving the injection.",
+          "s": "Instead of dealing with problems in a purely ______ (react) way, the council now plans ten years ahead.",
           "base": "react",
           "ans": [
-            "reaction"
+            "reactive"
           ],
-          "g": "反应；过敏反应"
+          "g": "被动反应的；反应性的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "A thorough ______ was launched after several patients reported unusual side effects.",
+          "s": "The young reporter spent six months on an ______ (investigate) report into hospital safety.",
           "base": "investigate",
           "ans": [
-            "investigation"
+            "investigative"
           ],
-          "g": "调查；研究"
+          "g": "调查的；侦查性的"
         },
         {
           "p": "E",
@@ -671,22 +671,22 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The textbook includes a clear ______ of how blood circulates through the human heart.",
+          "s": "The figures in the table are purely ______ (illustrate); the real results will be published next month.",
           "base": "illustrate",
           "ans": [
-            "illustration"
+            "illustrative"
           ],
-          "g": "插图；说明"
+          "g": "说明性的；作为例证的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Following the ______ of her findings, three rival laboratories asked to collaborate.",
+          "s": "The novelist's early letters remained ______ (publish) until fifty years after her death.",
           "base": "publish",
           "ans": [
-            "publication"
+            "unpublished"
           ],
-          "g": "出版；发表"
+          "g": "未出版的；未发表的"
         },
         {
           "p": "E",
@@ -812,22 +812,22 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ between ocean currents and the atmosphere drives much of the planet's weather.",
+          "s": "Young children learn fastest through ______ (interact) games that respond to every touch.",
           "base": "interact",
           "ans": [
-            "interaction"
+            "interactive"
           ],
-          "g": "相互作用；交流"
+          "g": "互动的；交互式的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "A high ______ of greenhouse gases in the atmosphere traps more heat near the surface.",
+          "s": "Boil the soup gently until it has a rich, ______ (concentrate) flavour.",
           "base": "concentrate",
           "ans": [
-            "concentration"
+            "concentrated"
           ],
-          "g": "浓度；集中"
+          "g": "浓缩的"
         },
         {
           "p": "E",
@@ -953,22 +953,22 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The ______ between the two data sets was so close that chance alone seemed unlikely.",
+          "s": "Sales rose by twenty percent, and profits rose ______ (correspond) over the same period.",
           "base": "correspond",
           "ans": [
-            "correspondence"
+            "correspondingly"
           ],
-          "g": "对应；一致"
+          "g": "相应地"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "GPS satellites can pinpoint the exact ______ of a mobile phone within a few metres.",
+          "s": "When the office rent doubled, the charity had to ______ (locate) to a smaller building across town.",
           "base": "locate",
           "ans": [
-            "location"
+            "relocate"
           ],
-          "g": "位置；定位"
+          "g": "搬迁；重新安置"
         },
         {
           "p": "E",
@@ -1094,22 +1094,22 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The prime minister reaffirmed his country's ______ to reducing carbon emissions by half.",
+          "s": "The whole staff are deeply ______ (commit) to helping every student reach their potential.",
           "base": "commit",
           "ans": [
-            "commitment"
+            "committed"
           ],
-          "g": "承诺；投入"
+          "g": "投入的；尽责的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Online ______ for the conference opens on the first of March and closes two weeks later.",
+          "s": "Companies that fail to file an annual report may be forced to ______ (register).",
           "base": "register",
           "ans": [
-            "registration"
+            "deregister"
           ],
-          "g": "登记；注册"
+          "g": "注销（登记）"
         },
         {
           "p": "E",
@@ -1376,13 +1376,12 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Much of the working population is now employed in service-sector ______ rather than manufacturing.",
+          "s": "Back injuries are among the most common ______ (occupy) hazards faced by hospital nurses.",
           "base": "occupy",
           "ans": [
-            "occupation",
-            "occupations"
+            "occupational"
           ],
-          "g": "职业；占领"
+          "g": "职业的"
         },
         {
           "p": "D",

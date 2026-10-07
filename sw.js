@@ -1,5 +1,5 @@
 // AWL Quiz Service Worker — offline-first static cache
-const CACHE = "awl-quiz-v20";
+const CACHE = "awl-quiz-v21";
 const ASSETS = [
   "./",
   "./index.html",

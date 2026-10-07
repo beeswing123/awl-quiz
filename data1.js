@@ -385,12 +385,12 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Her unusual ______ of the poem surprised the other students in the literature seminar.",
+          "s": "Without hearing the speaker's tone, it is easy to ______ (interpret) a short text message as angry or unfriendly.",
           "base": "interpret",
           "ans": [
-            "interpretation"
+            "misinterpret"
           ],
-          "g": "解释；诠释"
+          "g": "误解；曲解"
         },
         {
           "p": "D",
@@ -524,12 +524,12 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The company's slow ______ to the complaint made the customer even angrier.",
+          "s": "When the screen remained completely ______ (respond) to touch, the technician had to restart the tablet.",
           "base": "respond",
           "ans": [
-            "response"
+            "unresponsive"
           ],
-          "g": "回应"
+          "g": "无反应的；迟钝的"
         },
         {
           "p": "D",
@@ -663,22 +663,22 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Dark clouds are often an ______ that rain is on the way.",
+          "s": "Such warm winters are ______ (indicate) of a long-term shift in the global climate.",
           "base": "indicate",
           "ans": [
-            "indication"
+            "indicative"
           ],
-          "g": "迹象；表明"
+          "g": "表明……的；标示的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "It is sometimes hard to draw a ______ between formal and informal language in everyday speech.",
+          "s": "I can ______ (distinct) remember turning off the lights and locking the front door.",
           "base": "distinct",
           "ans": [
-            "distinction"
+            "distinctly"
           ],
-          "g": "区别；差别"
+          "g": "清楚地；明显地"
         },
         {
           "p": "E",
@@ -812,13 +812,12 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Two passengers escaped from the road accident without serious ______.",
+          "s": "Three passengers were seriously ______ (injure) when the bus braked suddenly on the icy road.",
           "base": "injure",
           "ans": [
-            "injury",
-            "injuries"
+            "injured"
           ],
-          "g": "伤害；受伤"
+          "g": "受伤的"
         },
         {
           "p": "E",
@@ -942,22 +941,22 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The marathon runner was praised for her remarkable ______ in finishing the race despite an injured knee.",
+          "s": "Break a large task into small, ______ (achieve) steps so that each success builds your confidence.",
           "base": "achieve",
           "ans": [
-            "achievement"
+            "achievable"
           ],
-          "g": "成就；成绩"
+          "g": "可实现的；可达到的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Before approving the loan, the bank will carry out a full ______ of the applicant's financial situation.",
+          "s": "When the first experiment produced unexpected data, the team decided to ______ (assess) its entire method.",
           "base": "assess",
           "ans": [
-            "assessment"
+            "reassess"
           ],
-          "g": "评估；评价"
+          "g": "重新评估；再考虑"
         },
         {
           "p": "E",
@@ -1365,12 +1364,12 @@ window.AWL_Q[1] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The research ______ was established in 1985 to study tropical diseases.",
+          "s": "The planned reforms met with deep ______ (institute) resistance from long-serving officials.",
           "base": "institute",
           "ans": [
-            "institution"
+            "institutional"
           ],
-          "g": "机构；研究所"
+          "g": "制度上的；机构的"
         },
         {
           "p": "D",

@@ -398,12 +398,12 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "A small dose of the drug can lower a patient's ______ and make them feel unusually talkative.",
+          "s": "Many first-year students feel too ______ (inhibit) to ask questions in a large lecture hall.",
           "base": "inhibit",
           "ans": [
-            "inhibition"
+            "inhibited"
           ],
-          "g": "抑制；拘束"
+          "g": "拘谨的；放不开的"
         },
         {
           "p": "E",
@@ -529,22 +529,22 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The engineer made a small ______ to the satellite's orbit to prevent it from drifting off course.",
+          "s": "After a month of night shifts, her body needed time to ______ (adjust) to sleeping during the day.",
           "base": "adjust",
           "ans": [
-            "adjustment"
+            "readjust"
           ],
-          "g": "调整"
+          "g": "重新适应；再调整"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The new smartphone demonstrates impressive processing ______ despite its compact size.",
+          "s": "Without the missing figures, the model is ______ (capable) of producing a reliable forecast.",
           "base": "capable",
           "ans": [
-            "capability"
+            "incapable"
           ],
-          "g": "能力"
+          "g": "不能的；无能力的"
         },
         {
           "p": "E",
@@ -670,22 +670,23 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The handshake at the end of the negotiation was a ______ gesture marking the start of a new partnership.",
+          "s": "In many cultures, a long journey ______ (symbol) the passage from childhood to adult life.",
           "base": "symbol",
           "ans": [
-            "symbolic"
+            "symbolises",
+            "symbolizes"
           ],
-          "g": "象征性的"
+          "g": "象征；代表"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The annual ______ of skilled workers from rural areas to the capital has created a severe labour shortage.",
+          "s": "The wetlands are protected as a resting place for ______ (migrate) birds flying between the Arctic and Africa.",
           "base": "migrate",
           "ans": [
-            "migration"
+            "migratory"
           ],
-          "g": "迁徙；迁移"
+          "g": "迁徙的；移栖的"
         },
         {
           "p": "E",
@@ -811,12 +812,12 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The scientist presented a ______ argument for why the new drug should be approved for clinical trials.",
+          "s": "It seems ______ (logic) to build a second runway when flights at the existing one are half empty.",
           "base": "logic",
           "ans": [
-            "logical"
+            "illogical"
           ],
-          "g": "合乎逻辑的"
+          "g": "不合逻辑的"
         },
         {
           "p": "D",
@@ -952,22 +953,22 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Modern surgical robots can perform delicate operations with extraordinary ______.",
+          "s": "The satellite can locate a ship to within two metres ______ (precise), even in heavy cloud.",
           "base": "precise",
           "ans": [
-            "precision"
+            "precisely"
           ],
-          "g": "精确度"
+          "g": "精确地"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "Please send your CV as a separate file ______ rather than pasting it into the body of the email.",
+          "s": "Please find ______ (attach) a signed copy of the contract for your records.",
           "base": "attach",
           "ans": [
-            "attachment"
+            "attached"
           ],
-          "g": "附件；依附"
+          "g": "附上的；附加的"
         },
         {
           "p": "E",
@@ -1093,22 +1094,22 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Money is often assumed to be the main ______, yet many volunteers work for no financial reward at all.",
+          "s": "Experienced teachers ______ (motive) students by praising effort rather than simply rewarding high marks.",
           "base": "motive",
           "ans": [
-            "motivation"
+            "motivate"
           ],
-          "g": "动机；动力"
+          "g": "激励；激发"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The museum's new exhibition traces the ______ of human language from its earliest known forms.",
+          "s": "The giraffe's long neck is the product of a slow ______ (evolve) process lasting millions of years.",
           "base": "evolve",
           "ans": [
-            "evolution"
+            "evolutionary"
           ],
-          "g": "进化；演变"
+          "g": "进化的；演变的"
         },
         {
           "p": "E",
@@ -1375,22 +1376,23 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "All new MPs attend a week-long ______ programme before taking their seats in parliament.",
+          "s": "The new training course is strongly ______ (orient) towards practical workplace skills.",
           "base": "orient",
           "ans": [
-            "orientation"
+            "oriented",
+            "orientated"
           ],
-          "g": "迎新；定向"
+          "g": "以……为导向的"
         },
         {
           "p": "D",
           "t": "text",
-          "s": "The peace ______ was welcomed by both sides as a first step towards ending the decade-long conflict.",
+          "s": "The reforms were first ______ (initiate) by the government shortly after it took office.",
           "base": "initiate",
           "ans": [
-            "initiative"
+            "initiated"
           ],
-          "g": "倡议；主动行动"
+          "g": "发起；开始实施（过去分词）"
         },
         {
           "p": "E",
