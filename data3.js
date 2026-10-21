@@ -106,12 +106,12 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Universities are trying to raise students' ______ of psychological wellbeing issues during exam season.",
-          "base": "aware",
+          "s": "The delay in the ______ of the new tax rules created confusion among small business owners.",
+          "base": "implement",
           "ans": [
-            "awareness"
+            "implementation"
           ],
-          "g": "意识"
+          "g": "实施；执行（the ___ of 槽位需要名词）"
         },
         {
           "p": "D",
