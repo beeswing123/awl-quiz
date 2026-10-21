@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#eef1f4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="AWL 词汇">
+<link rel="manifest" href="manifest.json">
+<title>AWL 词汇 · Sublist 5–8</title>
+<style>
+  :root{
+    --bg:#eef1f4; --card:#ffffff; --card2:#f2f5f8; --ink:#2e3a46; --ink2:#6b7888;
+    --line:#d9e0e8; --primary:#3f6fb5; --primary-d:#33609e; --primary-t:#e4edf9;
+    --shadow:0 2px 10px rgba(46,58,70,.07);
+    --r-sm:11px; --r-md:14px; --r-lg:18px;
+  }
+  html[data-theme="dark"]{
+    --bg:#141821; --card:#1b212c; --card2:#232b38; --ink:#e7ecf2; --ink2:#95a1b0;
+    --line:#313b4a; --primary:#7fabee; --primary-d:#9cc2f3; --primary-t:#24344d;
+    --shadow:0 4px 16px rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-size:16px; line-height:1.65;
+  }
+  #app{max-width:640px;margin:0 auto;padding:0 14px calc(30px + env(safe-area-inset-bottom))}
+  h1,h2,h3{margin:0;font-weight:650}
+  button{font-family:inherit}
+  .hidden{display:none !important}
+
+  /* ---------- top bar ---------- */
+  .top{position:sticky;top:0;z-index:20;background:var(--bg);padding:14px 0 10px}
+  .top-row{display:flex;align-items:center;gap:10px}
+  .top h1{font-size:17px;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .tb-btn{background:var(--card);border:1px solid var(--line);border-radius:20px;
+    padding:8px 14px;font-size:13px;color:var(--ink2);cursor:pointer;flex:none;
+    display:flex;align-items:center;gap:6px;line-height:1.2;
+    transition:background .12s,border-color .12s,color .12s}
+  .tb-btn:active{transform:scale(.96)}
+  .tb-btn:hover{background:var(--card2)}
+  .tb-btn.primary{background:var(--primary-t);border-color:var(--primary);color:var(--primary-d);font-weight:650}
+  .counter{font-size:12.5px;color:var(--ink2);margin-top:2px}
+  .bar{height:6px;background:var(--card2);border-radius:6px;margin-top:8px;overflow:hidden}
+  .bar i{display:block;height:100%;width:0;background:var(--primary);border-radius:6px;transition:width .25s}
+
+  /* ---------- controls ---------- */
+  .ctrl{display:flex;gap:8px;margin:12px 0 4px;flex-wrap:wrap}
+  .seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:3px;flex:none}
+  .seg button{border:0;background:transparent;border-radius:20px;padding:7px 16px;font-size:13px;
+    color:var(--ink2);cursor:pointer;line-height:1.2}
+  .seg button.on{background:var(--primary-t);color:var(--primary-d);font-weight:650}
+  .chips{display:flex;gap:6px;flex:1;justify-content:flex-end}
+  .chip{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:7px 13px;
+    font-size:12.5px;color:var(--ink2);cursor:pointer;line-height:1.2}
+  .chip.on{background:var(--primary-t);border-color:var(--primary);color:var(--primary-d);font-weight:650}
+  .chip:active{transform:scale(.96)}
+
+  /* ---------- card ---------- */
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);
+    box-shadow:var(--shadow);padding:20px 18px 16px;margin:14px 0}
+  .card-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .idx{font-size:12.5px;color:var(--ink2);font-weight:600}
+  .tag{font-size:11px;padding:2px 9px;border-radius:20px;background:var(--primary-t);color:var(--primary-d);font-weight:650}
+  .pos{font-size:11px;padding:2px 9px;border-radius:20px;background:var(--card2);color:var(--ink2);font-style:italic}
+  .word{font-size:30px;font-weight:700;letter-spacing:.3px;margin:14px 0 2px;line-height:1.25;word-break:break-word}
+  .word .ph{font-size:13px;color:var(--ink2);font-weight:500;margin-left:8px}
+  .sent{font-size:17.5px;line-height:1.85;margin-top:10px}
+  .hl{color:var(--primary-d);font-weight:700;cursor:pointer;border-bottom:2px solid var(--primary);
+     padding:0 2px;transition:background .12s;border-radius:3px 3px 0 0}
+  .hl:active{background:var(--primary-t)}
+  .blank{display:inline-block;min-width:96px;text-align:center;color:var(--primary-d);font-weight:700;
+    cursor:pointer;border-bottom:2px solid var(--primary);padding:0 10px;letter-spacing:2px}
+  .blank:active{background:var(--primary-t)}
+  .blank.done{color:var(--primary-d);letter-spacing:0;min-width:0}
+  .hint{font-size:12.5px;color:var(--ink2);margin-top:10px}
+  .reveal{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
+  .gloss{font-size:15.5px;font-weight:650;color:var(--primary-d)}
+  .trans{font-size:14.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+
+  /* ---------- nav ---------- */
+  .nav{display:flex;gap:10px;margin:4px 0 14px}
+  .nav button{flex:1;border:1px solid var(--line);background:var(--card);color:var(--ink);
+    border-radius:var(--r-md);padding:13px 0;font-size:15px;font-weight:650;cursor:pointer;
+    transition:background .12s,border-color .12s}
+  .nav button:hover{background:var(--card2)}
+  .nav button:active{transform:scale(.97)}
+  .tip{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);
+    padding:12px 14px;font-size:12.5px;color:var(--ink2);box-shadow:var(--shadow);line-height:1.7;margin-top:4px}
+  .tip b{color:var(--primary-d);font-weight:650}
+  .back{display:inline-block;font-size:12.5px;color:var(--ink2);text-decoration:none;margin-top:10px}
+  .back:hover{color:var(--primary-d)}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="top">
+    <div class="top-row">
+      <h1>AWL 词汇 · Sublist 5–8</h1>
+      <button class="tb-btn" id="btnShuffle">打乱</button>
+      <button class="tb-btn" id="btnTheme">夜间</button>
+    </div>
+    <div class="counter" id="counter"></div>
+    <div class="bar"><i id="bar"></i></div>
+    <div class="ctrl">
+      <div class="seg" id="modeSeg">
+        <button data-m="learn" class="on">学习</button>
+        <button data-m="cloze">填空</button>
+      </div>
+      <div class="chips" id="chips">
+        <button class="chip on" data-f="all">全部</button>
+        <button class="chip" data-f="5–6">5–6</button>
+        <button class="chip" data-f="7–8">7–8</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <span class="idx" id="cIdx"></span>
+      <span class="tag" id="cTag"></span>
+      <span class="pos" id="cPos"></span>
+    </div>
+    <div class="word" id="cWord"></div>
+    <div class="sent" id="cSent"></div>
+    <div class="hint" id="cHint"></div>
+    <div class="reveal hidden" id="cReveal">
+      <div class="gloss" id="cGloss"></div>
+      <div class="trans" id="cTrans"></div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <button id="btnPrev">‹ 上一词</button>
+    <button id="btnNext">下一词 ›</button>
+  </div>
+
+  <div class="tip" id="tip">
+    <b>学习模式</b>：点击句中蓝色单词，核对中文释义与整句翻译。<br>
+    <b>填空模式</b>：单词被隐藏，先回忆，再点击横线处核对答案。
+  </div>
+  <a class="back" href="./">← 返回 AWL 测验</a>
+</div>
+
+<script src="vocab-data.js"></script>
+<script>
+(function(){
+  "use strict";
+  var DATA = window.AWL_VOCAB || [];
+  var LS = "awl_vocab_v1";
+  var st = {theme:null, mode:"learn", filter:"all", order:[], idx:0, shown:false};
+  try{ var saved=JSON.parse(localStorage.getItem(LS)||"{}"); for(var k in st) if(saved[k]!==undefined) st[k]=saved[k]; }catch(e){}
+  if(st.theme===null) st.theme = (window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";
+
+  // 初始化顺序
+  if(!Array.isArray(st.order)||st.order.length!==DATA.length||st.order.some(function(i){return !(i>=0&&i<DATA.length);})){
+    st.order = DATA.map(function(_,i){return i;});
+  }
+  function save(){ try{ localStorage.setItem(LS, JSON.stringify({theme:st.theme,mode:st.mode,filter:st.filter,order:st.order,idx:st.idx})); }catch(e){} }
+
+  function visible(){
+    return st.order.filter(function(i){ return st.filter==="all"||DATA[i].sub===st.filter; });
+  }
+  function clampIdx(vis){
+    if(!vis.length){ st.idx=0; return; }
+    if(st.idx>=vis.length) st.idx=vis.length-1;
+    if(st.idx<0) st.idx=0;
+  }
+
+  var $=function(id){return document.getElementById(id);};
+  function applyTheme(){
+    document.documentElement.setAttribute("data-theme", st.theme);
+    $("btnTheme").textContent = st.theme==="dark" ? "日间" : "夜间";
+    var m=document.querySelector('meta[name="theme-color"]');
+    if(m) m.setAttribute("content", st.theme==="dark"?"#141821":"#eef1f4");
+  }
+  function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function render(){
+    applyTheme();
+    var vis=visible(); clampIdx(vis);
+    $("modeSeg").querySelectorAll("button").forEach(function(b){ b.classList.toggle("on", b.dataset.m===st.mode); });
+    $("chips").querySelectorAll(".chip").forEach(function(b){ b.classList.toggle("on", b.dataset.f===st.filter); });
+    if(!vis.length){
+      $("cIdx").textContent=""; $("cTag").textContent=""; $("cPos").textContent="";
+      $("cWord").textContent="该 sublist 无词汇"; $("cSent").innerHTML=""; $("cHint").textContent="";
+      $("cReveal").classList.add("hidden"); $("counter").textContent=""; $("bar").style.width="0";
+      return;
+    }
+    var e=DATA[vis[st.idx]];
+    var form=(e.s.match(/\[\[(.+?)\]\]/)||[])[1]||e.w;
+    $("cIdx").textContent=(st.idx+1)+" / "+vis.length;
+    $("cTag").textContent="SL "+e.sub;
+    $("cPos").textContent=e.p;
+    // 单词区：填空模式隐藏
+    var wEl=$("cWord");
+    if(st.mode==="cloze"){ wEl.innerHTML='<span style="color:var(--ink2);font-weight:600;letter-spacing:4px">? ? ?</span>'; }
+    else{ wEl.innerHTML=esc(e.w)+'<span class="ph">'+esc(e.p)+'</span>'; }
+    // 句子区
+    var parts=e.s.split(/\[\[.+\]\]/);
+    var sEl=$("cSent");
+    if(st.mode==="learn"){
+      sEl.innerHTML=esc(parts[0])+'<span class="hl" id="hlWord">'+esc(form)+'</span>'+esc(parts[1]||"");
+      $("cHint").textContent="点击蓝色单词，核对释义与整句翻译";
+      $("hlWord").addEventListener("click", toggleReveal);
+    }else{
+      sEl.innerHTML=esc(parts[0])+'<span class="blank" id="blankWord">______</span>'+esc(parts[1]||"");
+      $("cHint").textContent="先回忆这个词，再点击横线处核对";
+      $("blankWord").addEventListener("click", function(){
+        if(!st.shown){
+          st.shown=true;
+          this.textContent=form; this.classList.add("done");
+          $("cWord").innerHTML=esc(e.w)+'<span class="ph">'+esc(e.p)+'</span>';
+          showReveal(e);
+        }
+      });
+    }
+    $("counter").textContent=st.mode==="learn"?"学习模式 · 共 "+vis.length+" 词":"填空模式 · 共 "+vis.length+" 词";
+    $("bar").style.width=((st.idx+1)/vis.length*100)+"%";
+    st.shown=false;
+    $("cReveal").classList.add("hidden");
+    if(st.mode==="learn"){ /* 学习模式不自动展开 */ }
+    save();
+  }
+  function showReveal(e){
+    $("cGloss").textContent=e.g;
+    $("cTrans").textContent=e.t;
+    $("cReveal").classList.remove("hidden");
+  }
+  function toggleReveal(){
+    var vis=visible(); if(!vis.length) return;
+    var e=DATA[vis[st.idx]];
+    var r=$("cReveal");
+    if(r.classList.contains("hidden")) showReveal(e); else r.classList.add("hidden");
+  }
+  function go(d){
+    var vis=visible(); if(!vis.length) return;
+    st.idx=(st.idx+d+vis.length)%vis.length;
+    st.shown=false; render();
+  }
+  function shuffle(){
+    var a=st.order.slice();
+    for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; }
+    st.order=a; st.idx=0; st.shown=false; render();
+  }
+
+  $("btnPrev").addEventListener("click", function(){go(-1);});
+  $("btnNext").addEventListener("click", function(){go(1);});
+  $("btnShuffle").addEventListener("click", shuffle);
+  $("btnTheme").addEventListener("click", function(){ st.theme=st.theme==="dark"?"light":"dark"; render(); });
+  $("modeSeg").addEventListener("click", function(ev){
+    var b=ev.target.closest("button"); if(!b) return;
+    st.mode=b.dataset.m; st.shown=false; render();
+  });
+  $("chips").addEventListener("click", function(ev){
+    var b=ev.target.closest(".chip"); if(!b) return;
+    st.filter=b.dataset.f; st.idx=0; st.shown=false; render();
+  });
+  document.addEventListener("keydown", function(ev){
+    if(ev.key==="ArrowRight") go(1);
+    else if(ev.key==="ArrowLeft") go(-1);
+    else if(ev.key===" "){ ev.preventDefault(); toggleReveal(); }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
