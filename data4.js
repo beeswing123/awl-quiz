@@ -804,9 +804,9 @@ window.AWL_Q[4] = {
           "p": "C",
           "t": "tf",
           "w": "conform",
-          "m": "to behave in a way that deliberately breaks every established rule or custom",
+          "m": "to officially state that something is true or correct, especially after checking the evidence",
           "ans": false,
-          "g": "遵从；符合"
+          "g": "那是 confirm（确认、证实）的释义；conform 意为“遵守、符合（规则、标准）”，常接 to"
         },
         {
           "p": "D",
@@ -957,7 +957,7 @@ window.AWL_Q[4] = {
           "ans": [
             "complementary"
           ],
-          "g": "互补的；补充的"
+          "g": "互补的；相辅相成的（勿与 compliment“赞美、恭维”混淆——complemenT 互补，complimenT 奉承）"
         },
         {
           "p": "D",

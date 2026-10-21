@@ -136,12 +136,12 @@ window.AWL_Q[3] = {
         {
           "p": "E",
           "t": "text",
-          "s": "The visiting professor delivered a fascinating l______ on the development of machine learning.",
+          "s": "For recent i______, the first year in a new country is often the hardest.",
           "ans": [
-            "lecture"
+            "immigrants"
           ],
-          "g": "讲座；讲课",
-          "first": "l"
+          "g": "移民（immigrate 动词 / immigrant 可数名词 / immigration 不可数名词，按句法槽位选对形式）",
+          "first": "i"
         }
       ]
     },
@@ -267,12 +267,12 @@ window.AWL_Q[3] = {
         {
           "p": "E",
           "t": "text",
-          "s": "Restaurants must obtain a valid l______ from the local council before serving alcohol to customers.",
+          "s": "The supervisor wrote a short c______ in the margin, suggesting that the argument needed more evidence.",
           "ans": [
-            "licence"
+            "comment"
           ],
-          "g": "执照；许可证",
-          "first": "l"
+          "g": "评论；批注（claim 意为“声称、主张”，此处指老师写的批注）",
+          "first": "c"
         },
         {
           "p": "E",
@@ -388,12 +388,12 @@ window.AWL_Q[3] = {
         {
           "p": "D",
           "t": "text",
-          "s": "Patients suffering from long-term illness often experience ______ distress as well as physical pain.",
-          "base": "psychology",
+          "s": "The city has become an ______ centre for green technology, attracting researchers from around the world.",
+          "base": "emerge",
           "ans": [
-            "psychological"
+            "emerging"
           ],
-          "g": "心理的"
+          "g": "新兴的；崛起的（emerge 以哑音 e 结尾，加 -ing 前要去掉 e）"
         },
         {
           "p": "D",
@@ -522,9 +522,9 @@ window.AWL_Q[3] = {
           "p": "C",
           "t": "tf",
           "w": "cite",
-          "m": "to completely ignore a source of information and pretend it does not exist",
+          "m": "a place where something important happened, or the piece of ground that a building stands on",
           "ans": false,
-          "g": "引用"
+          "g": "那是 site（地点、场所）的释义；cite 意为“引用、引证（资料来源）”"
         },
         {
           "p": "D",
@@ -559,12 +559,12 @@ window.AWL_Q[3] = {
         {
           "p": "E",
           "t": "text",
-          "s": "High-speed rail provides a fast and reliable form of public t______ between major cities.",
+          "s": "This survey takes a______ twenty minutes to complete.",
           "ans": [
-            "transport"
+            "approximately"
           ],
-          "g": "运输",
-          "first": "t"
+          "g": "大约；近似地（approximate 去掉哑音 e 再加 -ly）",
+          "first": "a"
         }
       ]
     },

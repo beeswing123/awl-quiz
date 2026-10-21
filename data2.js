@@ -277,12 +277,12 @@ window.AWL_Q[2] = {
         {
           "p": "E",
           "t": "text",
-          "s": "This survey takes a______ twenty minutes to complete.",
+          "s": "The government faces mounting pressure to tackle rising d______ energy prices this winter.",
           "ans": [
-            "approximately"
+            "domestic"
           ],
-          "g": "大约；近似地",
-          "first": "a"
+          "g": "国内的；家庭的",
+          "first": "d"
         }
       ]
     },
@@ -656,9 +656,9 @@ window.AWL_Q[2] = {
           "p": "C",
           "t": "tf",
           "w": "considerable",
-          "m": "thoughtful and careful about other people's feelings, so that you avoid upsetting them",
-          "ans": false,
-          "g": "considerate 才表示“体贴的”；considerable 意为“相当大的、可观的”"
+          "m": "large in size, amount, or degree; significant enough to matter",
+          "ans": true,
+          "g": "相当大的；可观的"
         },
         {
           "p": "C",
@@ -671,12 +671,12 @@ window.AWL_Q[2] = {
         {
           "p": "D",
           "t": "text",
-          "s": "The city has become an ______ centre for green technology, attracting researchers from around the world.",
-          "base": "emerge",
+          "s": "The figures in the table are purely ______ (illustrate); the real results will be published next month.",
+          "base": "illustrate",
           "ans": [
-            "emerging"
+            "illustrative"
           ],
-          "g": "新兴的；崛起的"
+          "g": "说明性的；作为例证的"
         },
         {
           "p": "D",
@@ -1228,9 +1228,9 @@ window.AWL_Q[2] = {
           "p": "C",
           "t": "tf",
           "w": "rely",
-          "m": "to depend on someone or something and trust that they will do what you need or expect",
-          "ans": true,
-          "g": "依赖；指望（reliance 是其名词形式）"
+          "m": "to push someone away and to refuse to accept any help they offer",
+          "ans": false,
+          "g": "依赖；依靠"
         },
         {
           "p": "D",
@@ -1396,22 +1396,22 @@ window.AWL_Q[2] = {
         {
           "p": "E",
           "t": "text",
-          "s": "The supervisor wrote a short c______ in the margin, suggesting that the argument needed more evidence.",
+          "s": "Completing the census on time is a massive administrative t______ for any government.",
           "ans": [
-            "comment"
+            "task"
           ],
-          "g": "评论；批注（注意与 claim 区分：claim 指声称、主张）",
-          "first": "c"
+          "g": "任务；工作",
+          "first": "t"
         },
         {
           "p": "E",
           "t": "text",
-          "s": "For recent i______, the first year in a new country is often the hardest.",
+          "s": "Every product on the supermarket shelf carries a unique bar c______ for identification.",
           "ans": [
-            "immigrants"
+            "code"
           ],
-          "g": "移民（名词复数；immigrate=动词，immigration=不可数名词）",
-          "first": "i"
+          "g": "代码；密码",
+          "first": "c"
         }
       ]
     }
