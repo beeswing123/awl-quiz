@@ -81,6 +81,17 @@
   .reveal{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
   .gloss{font-size:15.5px;font-weight:650;color:var(--primary-d)}
   .trans{font-size:14.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+  .xtra{margin-top:16px;border-top:1px dashed var(--line);padding-top:12px}
+  .xtra-h{font-size:11.5px;color:var(--ink2);letter-spacing:.5px;font-weight:650;margin-bottom:4px}
+  .xi{background:var(--card2);border-radius:var(--r-sm);padding:10px 12px;margin-top:8px}
+  .xi-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .xi-h b{font-size:15px;color:var(--ink);font-weight:700}
+  .xi-h .pos{font-size:10.5px;padding:1px 7px}
+  .xi-n{font-size:11.5px;color:var(--ink2)}
+  .xi-s{font-size:15px;line-height:1.7;margin-top:6px}
+  .xi-hl{color:var(--primary-d);font-weight:700;border-bottom:1.5px solid var(--primary);padding:0 1px}
+  .xi-g{font-size:13px;color:var(--primary-d);font-weight:650;margin-top:6px}
+  .xi-t{font-size:12.5px;color:var(--ink2);margin-top:3px;line-height:1.65}
 
   /* ---------- nav ---------- */
   .nav{display:flex;gap:10px;margin:4px 0 14px}
@@ -131,6 +142,7 @@
     <div class="reveal hidden" id="cReveal">
       <div class="gloss" id="cGloss"></div>
       <div class="trans" id="cTrans"></div>
+      <div class="xtra hidden" id="cXtra"></div>
     </div>
   </div>
 
@@ -141,7 +153,8 @@
 
   <div class="tip" id="tip">
     <b>学习模式</b>：点击句中蓝色单词，核对中文释义与整句翻译。<br>
-    <b>填空模式</b>：单词被隐藏，先回忆，再点击横线处核对答案。
+    <b>填空模式</b>：单词被隐藏，先回忆，再点击横线处核对答案。<br>
+    <b>同根词 / 易混词</b>：部分词条展开后会附带变形或易混词的例句与区别。
   </div>
   <a class="back" href="./">← 返回 AWL 测验</a>
 </div>
@@ -229,6 +242,19 @@
   function showReveal(e){
     $("cGloss").textContent=e.g;
     $("cTrans").textContent=e.t;
+    var box=$("cXtra"), list=e.x||[];
+    if(list.length){
+      box.innerHTML='<div class="xtra-h">同根词 / 易混词</div>'+list.map(function(x){
+        var p=x[3].split(/\[\[.+\]\]/);
+        var f=(x[3].match(/\[\[(.+?)\]\]/)||[])[1]||"";
+        return '<div class="xi"><div class="xi-h"><b>'+esc(x[0])+'</b><span class="pos">'+esc(x[1])+'</span><span class="xi-n">'+esc(x[5])+'</span></div>'
+          +'<div class="xi-s">'+esc(p[0]||"")+'<span class="xi-hl">'+esc(f)+'</span>'+esc(p[1]||"")+'</div>'
+          +'<div class="xi-g">'+esc(x[2])+'</div><div class="xi-t">'+esc(x[4])+'</div></div>';
+      }).join("");
+      box.classList.remove("hidden");
+    }else{
+      box.innerHTML=""; box.classList.add("hidden");
+    }
     $("cReveal").classList.remove("hidden");
   }
   function toggleReveal(){
